@@ -1,9 +1,23 @@
 // Version Scheduled for EOL - NOTE for RNs - multiple releases/file
+// include::reuse::partial$eol-note.adoc[tag=eolNoteVersionScheduled]
 // tag::eolNoteVersionScheduled[]
 This version is scheduled for https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
-// end::eolVersionScheduled[]
+// end::eolNoteVersionScheduled[]
 
 // Version Deprecated - NOTE for RNs - multiple releases/file
-// tag::eolNoteNoteVersionDep[]
+// include::reuse::partial$eol-note.adoc[tag=eolNoteVersionDep]
+// tag::eolNoteVersionDep[]
 This version has reached https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
 // end::eolNoteVersionDep[]
+
+// Feature Scheduled for EOL - NOTE for section in a .adoc file
+// include::reuse::partial$eol-note.adoc[tag=eolNoteFeatureScheduled]
+// tag::eolNoteFeatureScheduled[]
+This feature is scheduled for https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+// end::eolNoteFeatureScheduled[]
+
+// Feature Deprecated - NOTE for section in a .adoc file
+// include::reuse::partial$eol-note.adoc[tag=eolNoteFeatureDep]
+// tag::eolNoteFeatureDep[]
+This feature has reached https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+// end::eolNoteFeatureDep[]
