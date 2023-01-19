@@ -1,0 +1,14 @@
+//tag::anypoint-code-builer
+[NOTE]
+--
+This is an open beta release. Any usage of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions. +
+Learn more.
+--
+//end::anypoint-code-builer
+
+//tag::apikit
+[NOTE]
+--
+This is an open beta release. Any usage of APIKit for GraphQL in its beta state is subject to the applicable beta services terms and conditions.
+--
+//end::apikit
