@@ -9,6 +9,7 @@ xref:anypoint-code-builder::accept-terms-and-conditions.adoc[Learn more].
 //tag::apikit[]
 [NOTE]
 --
-This is an open beta release. Any usage of APIKit for GraphQL in its beta state is subject to the applicable beta services terms and conditions.
+This is an open beta release. Any usage of APIkit for GraphQL in its beta state is subject to the applicable Anypoint Code Builder beta services terms and conditions. +
+xref:anypoint-code-builder::accept-terms-and-conditions.adoc[Learn more].
 --
 //end::apikit[]
