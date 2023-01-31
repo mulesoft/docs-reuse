@@ -23,7 +23,7 @@ This version has reached https://www.mulesoft.com/legal/versioning-back-support-
 // end::eolVersionDep[]
 
 // Version in Extended Support - BANNER
-// tag::extendedSupportEnding[]
+// tag::extendedVersionSupport[]
 [.notice-banner]
 This version is in https://www.mulesoft.com/legal/versioning-back-support-policy#extended-support[extended support^]. MuleSoft recommends upgrading to the latest version.
-// end::standardSupportEnding[]
+// end::extendedVersionSupport[]
