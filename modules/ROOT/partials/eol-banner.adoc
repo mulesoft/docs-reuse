@@ -25,5 +25,5 @@ This version has reached https://www.mulesoft.com/legal/versioning-back-support-
 // Version in Extended Support - BANNER
 // tag::startExtendedSupport[]
 [.notice-banner]
-This version has entered https://www.mulesoft.com/legal/versioning-back-support-policy#extended-support[extended support^].
+This version has entered https://www.mulesoft.com/legal/versioning-back-support-policy#extended-support[Extended Support^].
 // end::startExtendedSupport[]
