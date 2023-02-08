@@ -2,12 +2,14 @@
 // include::reuse::partial$eol-note.adoc[tag=eolNoteVersionScheduled]
 // tag::eolNoteVersionScheduled[]
 This version is scheduled for https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
-// end::eolNoteVersionScheduled[]
+include::partial$latest-version-shortcut.adoc[]
+// end::eolVersionScheduled[]
 
 // Version Deprecated - NOTE for RNs - multiple releases/file
 // include::reuse::partial$eol-note.adoc[tag=eolNoteVersionDep]
 // tag::eolNoteVersionDep[]
 This version has reached https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+include::partial$latest-version-shortcut.adoc[]
 // end::eolNoteVersionDep[]
 
 // Feature Scheduled for EOL - NOTE for section in a .adoc file

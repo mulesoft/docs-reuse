@@ -1,0 +1,5 @@
+ifeval::["{page-version}" != ""]
+ifndef::page-component-version-is-latest[]
+You can switch to the {site-url}/{page-component-name}/{page-component-latest-version}/[latest version], or use the version selector in the left navigation.
+endif::[]
+endif::[]
