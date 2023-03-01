@@ -31,5 +31,5 @@ This product has entered https://www.mulesoft.com/legal/versioning-back-support-
 // Version Extended Support - NOTE for section in a .adoc file
 // include::reuse::partial$eol-note.adoc[tag=extendedSupportVersion]
 // tag::extendedSupportVersion[]
-This version of the product has entered https://www.mulesoft.com/legal/versioning-back-support-policy[Extended Support^].
+This version has entered https://www.mulesoft.com/legal/versioning-back-support-policy[Extended Support^].
 // end::extendedSupportVersion[]
