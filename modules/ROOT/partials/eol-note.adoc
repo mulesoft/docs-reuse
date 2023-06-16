@@ -1,53 +1,53 @@
 // Product Scheduled for EOL - NOTE for RNs - multiple releases/file
 // include::reuse::partial$eol-note.adoc[tag=eolScheduled]
 // tag::eolScheduled[]
-This product is scheduled for https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+This product is scheduled for https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
 // end::eolScheduled[]
 
 // Version Scheduled for EOL - NOTE for RNs - multiple releases/file
 // include::reuse::partial$eol-note.adoc[tag=eolScheduledVersion]
 // tag::eolScheduledVersion[]
-This version of the product is scheduled for https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+This version of the product is scheduled for https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
 // end::eolScheduledVersion[]
 
 // Feature Scheduled for EOL - NOTE for section in a .adoc file
 // include::reuse::partial$eol-note.adoc[tag=eolScheduledFeature]
 // tag::eolScheduledFeature[]
-This feature of the product is scheduled for https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+This feature of the product is scheduled for https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
 // end::eolScheduledFeature[]
 
 // Product EOL Reached - NOTE for RNs - multiple releases/file
 // include::reuse::partial$eol-note.adoc[tag=eolReached]
 // tag::eolReached[]
-This product has reached https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+This product has reached https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
 // end::eolReached[]
 
 // Version EOL Reached - NOTE for RNs - multiple releases/file
 // include::reuse::partial$eol-note.adoc[tag=eolReachedVersion]
 // tag::eolReachedVersion[]
-This version of the product has reached https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+This version of the product has reached https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
 // end::eolReachedVersion[]
 
 // Feature EOL Reached - NOTE for section in a .adoc file
 // include::reuse::partial$eol-note.adoc[tag=eolReachedFeature]
 // tag::eolReachedFeature[]
-This feature of the product has reached https://www.mulesoft.com/legal/versioning-back-support-policy[End of Life^].
+This feature of the product has reached https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
 // end::eolReachedFeature[]
 
 // Product Extended Support - NOTE for section in a .adoc file
 // include::reuse::partial$eol-note.adoc[tag=extendedSupport]
 // tag::extendedSupport[]
-This product has entered https://www.mulesoft.com/legal/versioning-back-support-policy[Extended Support^].
+This product has entered https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[Extended Support^].
 // end::extendedSupport[]
 
 // Version Extended Support - NOTE for section in a .adoc file
 // include::reuse::partial$eol-note.adoc[tag=extendedSupportVersion]
 // tag::extendedSupportVersion[]
-This version of the product has entered https://www.mulesoft.com/legal/versioning-back-support-policy[Extended Support^].
+This version of the product has entered https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[Extended Support^].
 // end::extendedSupportVersion[]
 
 // Feature Extended Support - NOTE for section in a .adoc file
 // include::reuse::partial$eol-note.adoc[tag=extendedSupportFeature]
 // tag::extendedSupportFeature[]
-This feature of the product has entered https://www.mulesoft.com/legal/versioning-back-support-policy[Extended Support^].
+This feature of the product has entered https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[Extended Support^].
 // end::extendedSupportFeature[]
