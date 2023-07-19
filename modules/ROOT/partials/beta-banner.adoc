@@ -1,13 +1,12 @@
 //tag::anypoint-code-builder[]
-[NOTE]
---
-This is an open beta release. Any usage of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions. xref:anypoint-code-builder::accept-terms-and-conditions.adoc[Learn more].
---
+[.notice-banner]
+
+*Open Beta Release*: Any use of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions. xref:anypoint-code-builder::accept-terms-and-conditions.adoc[Learn more].
 //end::anypoint-code-builder[]
 
 //tag::apikit[]
 [NOTE]
 --
-This is an open beta release. Any usage of APIkit for GraphQL in its beta state is subject to the applicable Anypoint Code Builder beta services terms and conditions. xref:anypoint-code-builder::accept-terms-and-conditions.adoc[Learn more].
+This is an open beta release. Any use of APIkit for GraphQL in its beta state is subject to the applicable Anypoint Code Builder beta services terms and conditions. xref:anypoint-code-builder::accept-terms-and-conditions.adoc[Learn more].
 --
 //end::apikit[]
