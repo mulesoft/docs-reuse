@@ -1,7 +1,7 @@
 //tag::anypoint-code-builder[]
 [.notice-banner]
 
-*Open Beta Release*: Any use of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions. xref:anypoint-code-builder::accept-terms-and-conditions.adoc[Learn more].
+*Open Beta Release*: Any use of Anypoint Code Builder in its beta state is subject to the applicable beta services xref:anypoint-code-builder::accept-terms-and-conditions.adoc[terms and conditions].
 //end::anypoint-code-builder[]
 
 //tag::apikit[]
