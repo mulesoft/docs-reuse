@@ -1,3 +1,3 @@
 [.notice-banner]
 
-This topic is affected by the xref:rpa-home::anypoint-migration-overview.adoc[Anypoint Platform migration].
+This topic is affected by the xref:rpa-home::anypoint-migration-overview.adoc[Anypoint Platform integration].
