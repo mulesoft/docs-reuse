@@ -1,0 +1,1 @@
+Anypoint connectors and modules are extensions to Mule runtime engine that aid in processing Mule message and event data within a Mule application. Connectors, unlike modules, also provide ways to connect to external systems or services. 
