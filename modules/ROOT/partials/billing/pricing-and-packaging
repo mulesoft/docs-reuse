@@ -1,0 +1,54 @@
+//// 
+
+The following content has metering/billing information but cannot use partials:
+
+* Access Management: 
+** - vCore entitlement/distribution information
+* CloudHub 2.0:
+** ch2-architecture.adoc - table for vCores
+* Flex Gateway: `flex-use-api-partials.adoc` - table for G/P/T subscription 
+* Gateway: `flex-use-api-partials.adoc` - table for G/P/T subscription
+* Anypoint Security: `anypoint-security-policies-prereqs.adoc` - partial for prerequisites 
+* Usage Reports:
+
+////
+
+// tag::featureAdvReq[]
+This feature is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.  For more information, see the [Pricing and Packaging] documentation.
+// end::featureAdvReq[]
+
+// tag::featureAdvFunctionality[]
+If your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature has additional capabilities. 
+// end::featureAdvFunctionality[]
+
+// tag::featureResources[]
+If your organization has an Anypoint Integration Starter package or an Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores.  For more information, see the [Pricing and Packaging] documentation.
+// end::featureResources[]
+
+// tag::featureUsageReports[]
+If your organization has an Anypoint Integration Starter or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the [Pricing and Packaging] documentation.
+// end::featureUsageReports[]
+
+// tag::[]
+
+// end::[]
+
+// tag::[]
+
+// end::[]
+
+// tag::[]
+
+// end::[]
+
+// tag::[]
+
+// end::[]
+
+// tag::[]
+
+// end::[]
+
+// tag::[]
+
+// end::[]
