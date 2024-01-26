@@ -8,14 +8,16 @@ The following content has metering/billing information but cannot use partials:
 ** ch2-architecture.adoc - table for vCores
 * Flex Gateway: `flex-use-api-partials.adoc` - table for G/P/T subscription 
 * Gateway: `flex-use-api-partials.adoc` - table for G/P/T subscription
-* Anypoint Monitoring: `am-installing.adoc` - disable log forwarding;
+* Anypoint Monitoring: 
+** `am-installing.adoc` - disable log forwarding
+** `api-analytics-dashboard` - limits on subscriptions
 * Anypoint Security: `anypoint-security-policies-prereqs.adoc` - partial for prerequisites 
 * Usage Reports:
 
 ////
 
 // tag::featureAdvReq[]
-This feature is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.  For more information, see the [Pricing and Packaging] documentation.
+This feature is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureAdvReq[]
 
 // tag::featureAdvFunctionality[]
@@ -23,12 +25,16 @@ If your organization has the Anypoint Integration Advanced package or a Titanium
 // end::featureAdvFunctionality[]
 
 // tag::featureResources[]
-If your organization has an Anypoint Integration Starter package or an Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores.  For more information, see the [Pricing and Packaging] documentation.
+If your organization has an Anypoint Integration Starter package or an Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores.  For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureResources[]
 
 // tag::featureUsageReports[]
-If your organization has an Anypoint Integration Starter or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the [Pricing and Packaging] documentation.
+If your organization has an Anypoint Integration Starter or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureUsageReports[]
+
+// tag::apiAvailability[]
+This API is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+// end::apiAvailability[]
 
 // tag::chartAvailability[]
 The following charts are available only if you are using Unified Agent and your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform:
@@ -46,18 +52,6 @@ If you don't see the *Connectors* tab, verify that you have the Anypoint Integra
 If you don't see the *Flows* tab, verify that you are using Unified Agent and that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 // end::flowsTabAvailability[]
 
-// tag::[]
-
-// end::[]
-
-// tag::[]
-
-// end::[]
-
-// tag::[]
-
-// end::[]
-
-// tag::[]
-
-// end::[]
+// tag::availabilityParenthetical[]
+(Anypoint Integration Advanced package or Titanium subscriptions only)
+// end::availabilityParenthetical[]
