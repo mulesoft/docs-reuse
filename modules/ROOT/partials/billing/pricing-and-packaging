@@ -8,6 +8,7 @@ The following content has metering/billing information but cannot use partials:
 ** ch2-architecture.adoc - table for vCores
 * Flex Gateway: `flex-use-api-partials.adoc` - table for G/P/T subscription 
 * Gateway: `flex-use-api-partials.adoc` - table for G/P/T subscription
+* Anypoint Monitoring: `am-installing.adoc` - disable log forwarding;
 * Anypoint Security: `anypoint-security-policies-prereqs.adoc` - partial for prerequisites 
 * Usage Reports:
 
@@ -29,13 +30,21 @@ If your organization has an Anypoint Integration Starter package or an Anypoint 
 If your organization has an Anypoint Integration Starter or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the [Pricing and Packaging] documentation.
 // end::featureUsageReports[]
 
-// tag::[]
+// tag::chartAvailability[]
+The following charts are available only if you are using Unified Agent and your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform:
+// end::chartAvailability[]
 
-// end::[]
+// tag::metricAvailability[]
+This metric is available only for organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::metricAvailability[]
 
-// tag::[]
+// tag::connectorTabAvailability[]
+If you don't see the *Connectors* tab, verify that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and that the app you selected is a hybrid app deployed to a server, server group, or cluster. For more information, see xref:monitoring::monitor-connectors.adoc[Monitor Connectors]. 
+// end::connectorTabAvailability[]
 
-// end::[]
+// tag::flowsTabAvailability[]
+If you don't see the *Flows* tab, verify that you are using Unified Agent and that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::flowsTabAvailability[]
 
 // tag::[]
 
