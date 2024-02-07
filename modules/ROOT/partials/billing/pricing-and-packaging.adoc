@@ -25,7 +25,7 @@ If your organization has the Anypoint Integration Advanced package or a Titanium
 // end::featureAdvFunctionality[]
 
 // tag::featureResources[]
-If your organization has an Anypoint Integration Starter package or an Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores.  For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+If your organization has an Anypoint Integration Starter package or an Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureResources[]
 
 // tag::featureUsageReports[]
