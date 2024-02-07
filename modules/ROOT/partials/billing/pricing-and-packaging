@@ -55,3 +55,7 @@ If you don't see the *Flows* tab, verify that you are using Unified Agent and th
 // tag::availabilityParenthetical[]
 (Anypoint Integration Advanced package or Titanium subscriptions only)
 // end::availabilityParenthetical[]
+
+// tag::prereqBullet[]
+* The Anypoint Integration Advanced package or a Platinum or Titanium subscription to Anypoint Platform
+// end::prereqBullet[]
