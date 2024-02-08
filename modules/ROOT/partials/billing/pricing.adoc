@@ -29,7 +29,7 @@ If your organization has an Anypoint Integration Starter package or an Anypoint 
 // end::featureResources[]
 
 // tag::featureUsageReports[]
-If your organization has an Anypoint Integration Starter or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+If your organization has an Anypoint Integration Starter package or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureUsageReports[]
 
 // tag::apiAvailability[]
@@ -45,7 +45,12 @@ This metric is available only for organizations that have the Anypoint Integrati
 // end::metricAvailability[]
 
 // tag::connectorTabAvailability[]
-If you don't see the *Connectors* tab, verify that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and that the app you selected is a hybrid app deployed to a server, server group, or cluster. For more information, see xref:monitoring::monitor-connectors.adoc[Monitor Connectors]. 
+If you don't see the *Connectors* tab, verify that: 
+
+* You have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform
+* The app you selected is a hybrid app deployed to a server, server group, or cluster. 
+
+For more information, see xref:monitoring::monitor-connectors.adoc[Monitor Connectors]. 
 // end::connectorTabAvailability[]
 
 // tag::flowsTabAvailability[]
