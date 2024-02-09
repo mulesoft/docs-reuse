@@ -280,11 +280,11 @@ The following features are available for Anypoint Platform customers who have us
 [%header%autowidth.spread]
 |===
 |Pricing Package |Active Basic Alerts |Active Advanced Alerts
-| Anypoint Integration Starter | 6 per app or API | 6 per app or API
-| Anypoint API Management | 6 per API | 6 per API
-| Anypoint Integration Advanced | 10 per app or API | 10 per app or API
-| Gold Subscription | 50 | 20 across the organization
-| Platinum Subscription | 50 | 20 across the organization
-| Titanium Subscription | 50 plus 100 per vCore | 20 across the organization
+| Anypoint Integration Starter | 6 per app or API instance | 6 per app or API instance
+| Anypoint API Management | 6 per API instance | 6 per API instance
+| Anypoint Integration Advanced | 10 per app or API instance | 10 per app or API instance
+| Gold Subscription | 50 across the organization | None
+| Platinum Subscription | 50 across the organization | None
+| Titanium Subscription | 50 times the number of vCores in your org, plus 100 | 20 across the organization
 |===
 // end::monitoringAlerts[]
