@@ -103,3 +103,11 @@ If your organization uses the Anypoint Integration Starter package or Anypoint I
 
 During the monthly patching cycle, your applications automatically migrate to an equivalent replica size. Application deployment through the Mule Maven Plugin is not yet supported. However, you can deploy using the Runtime Manager UI and the Application Manager Experience APIs by leveraging a new field under `target.deploymentSettings` called `instanceType`.
 // end::vCoreSizeCH2[]
+
+// tag::apimLogging[]
+API Manager stores up to 100 MB of logs per API instance for 30 days. Runtime Manager automatically purges logs that go beyond 100 MB per API instance. If you need more storage, you can either use a third-party service (configured through a policy) or sign up for the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. 
+// end::apimLogging[]
+
+// tag::apiAddAlerts[]
+The maximum number of alerts you can create per API instance depends on your plan. Organizations that have the Anypoint Integration Starter package or a Gold or Platinum subscription to Anypoint Platform can have up to six active alerts per API instance. Organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform can have up to ten active alerts per API instance. With all plans, deleting or pausing alerts allows you to create new ones.
+// end::apiAddAlerts[]
