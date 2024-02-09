@@ -19,11 +19,11 @@ If your organization has the Anypoint Integration Advanced package or a Titanium
 // end::featureAdvFunctionality[]
 
 // tag::featureResources[]
-If your organization has an Anypoint Integration Starter package or an Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+If your organization has the Anypoint Integration Starter package or the Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureResources[]
 
 // tag::featureUsageReports[]
-If your organization has an Anypoint Integration Starter package or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+If your organization has the Anypoint Integration Starter package or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureUsageReports[]
 
 // tag::apiAvailability[]
@@ -42,6 +42,10 @@ The following charts are available only if you are using Unified Agent and your 
 This metric is available only for organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 // end::metricAvailability[]
 
+// tag::amLogging[]
+xref:monitoring::logs.adoc[Logging in Anypoint Monitoring] is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::amLogging[]
+
 // tag::connectorTabAvailability[]
 If you don't see the *Connectors* tab, verify that: 
 
@@ -50,6 +54,10 @@ If you don't see the *Connectors* tab, verify that:
 
 For more information, see xref:monitoring::monitor-connectors.adoc[Monitor Connectors]. 
 // end::connectorTabAvailability[]
+
+// tag::connectorTabReq[]
+If you don't see the *Connectors* tab, verify that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, and that the app you selected is running on a supported version of Mule.
+// end::connectorTabReq[]
 
 // tag::flowsTabAvailability[]
 If you don't see the *Flows* tab, verify that you are using Unified Agent and that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
@@ -70,6 +78,10 @@ Runtime Fabric requires the Anypoint Integration Advanced package or a Platinum 
 // tag::logForwardingAM[]
 Anypoint Monitoring provides access to xref:monitoring::logs.adoc[log data] for applications deployed to Runtime Fabric. To access logs with Anypoint Monitoring, you need the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 // end::logForwardingAM[]
+
+// tag::enabledFeature[]
+If your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature is enabled by default.
+// end::enabledFeature[]
 
 // tag::apiAlerts[]
 
