@@ -138,7 +138,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 |No
 
-4+| *Built-in Application Dashboards*
+5+| *Built-in Application Dashboards*
 |More than 80 out-of-the-box charts covering metrics in the following categories: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
 |Yes
@@ -176,7 +176,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 |No
 
-4+| *Built-in API Dashboards*
+5+| *Built-in API Dashboards*
 
 |16 out-of-the-box charts covering metrics in the following categories: Overview, Requests, Failures, Performance, and Client Application 
 |Yes
@@ -190,7 +190,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 |No
 
-4+| *Custom Dashboards*
+5+| *Custom Dashboards*
 
 |Basic mode
 |Yes
@@ -210,7 +210,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 |No
 
-4+| *Alerts*
+5+| *Alerts*
 
 |Basic alerts
 |Yes
@@ -224,7 +224,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 |No
 
-4+| *Log Management*
+5+| *Log Management*
 
 |Log search
 |No
@@ -242,7 +242,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 |No
 
-4+| *Additional Anypoint Monitoring features*
+5+| *Additional Anypoint Monitoring features*
 
 |Anypoint Monitoring Archive API
 |No
@@ -262,7 +262,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 |No
 
-4+| *Enhanced Support*
+5+| *Enhanced Support*
 
 |Enhanced Support
 |No
