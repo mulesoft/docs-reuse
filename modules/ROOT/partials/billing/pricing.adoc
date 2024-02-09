@@ -236,10 +236,12 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 |No
+|No
 
 |Raw data
 |No
 |Yes
+|No
 |No
 
 5+| *Additional Anypoint Monitoring features*
