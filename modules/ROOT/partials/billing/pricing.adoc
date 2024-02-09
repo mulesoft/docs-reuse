@@ -1,18 +1,12 @@
 //// 
 
-The following content has metering/billing information but cannot use partials:
+The following content has metering/billing information but cannot use these partials:
 
 * Access Management: 
-** - vCore entitlement/distribution information
-* CloudHub 2.0:
-** ch2-architecture.adoc - table for vCores
-* Flex Gateway: `flex-use-api-partials.adoc` - table for G/P/T subscription 
-* Gateway: `flex-use-api-partials.adoc` - table for G/P/T subscription
+** - vCore entitlement/distribution information lives in UBP
 * Anypoint Monitoring: 
 ** `am-installing.adoc` - disable log forwarding
 ** `api-analytics-dashboard.adoc` - limits on subscriptions
-* Anypoint Security: `anypoint-security-policies-prereqs.adoc` - partial for prerequisites 
-* Usage Reports:
 
 ////
 
@@ -68,3 +62,44 @@ If you don't see the *Flows* tab, verify that you are using Unified Agent and th
 // tag::securityPrereq[]
 Runtime Fabric requires the Anypoint Integration Advanced package or a Platinum or Titanium subscription to Anypoint Platform.
 // end::securityPrereq[]
+
+// tag::logForwardingAM[]
+Anypoint Monitoring provides access to xref:monitoring::logs.adoc[log data] for applications deployed to Runtime Fabric. To access logs with Anypoint Monitoring, you need the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::logForwardingAM[]
+
+// tag::apiAlerts[]
+
+[%header%autowidth.spread]
+|===
+|Pricing Package | Active Alerts
+| Anypoint Integration Starter | Up to 6
+| Anypoint API Management | Up to 6
+| Anypoint Integration Advanced | Up to 10
+| Gold Subscription | Up to 6
+| Platinum Subscription | Up to 6
+| Titanium Subscription | Up to 10
+|===
+
+// end::apiAlerts[]
+
+// tag::vCoreSizeCH2[]
+If your organization uses the Anypoint Integration Starter package or Anypoint Integration Advanced package, CloudHub 2.0 uses replica sizing for application deployment. You can choose from the following replica sizes based on the application profile or size and display the equivalent in terms of vCores. Replica sizes with the suffix `.mem` are memory-intensive options with the same compute. 
+
+[%header,cols="5*a"]
+|===
+|Offering          | Equivalent vCore Size | Total Memory | Heap Memory | Storage
+|mule.nano         | 0.05                  | 1 GB         | 0.5 GB      | 8 GB
+|mule.micro        | 0.1                   | 1 GB         | 0.5 GB      | 8 GB
+|mule.micro.mem    | 0.1                   | 2 GB         | 1 GB        | 8 GB
+|mule.small        | 0.2                   | 2 GB         | 1 GB        | 8 GB
+|mule.medium       | 0.5                   | 3 GB         | 1.5 GB      | 10 GB
+|mule.medium.mem   | 0.5                   | 5 GB         | 2.5 GB      | 10 GB
+|mule.large        | 1                     | 4 GB         | 2 GB        | 12 GB
+|mule.large.mem    | 1                     | 8 GB         | 4 GB        | 12 GB
+|mule.xlarge       | 2                     | 7 GB         | 3.5 GB      | 20 GB
+|mule.xlarge.mem   | 2                     | 12 GB        | 6 GB        | 20 GB
+|mule.2xlarge.mem  | 4                     | 15 GB        | 7.5 GB      | 20 GB
+|===
+
+During the monthly patching cycle, your applications automatically migrate to an equivalent replica size. Application deployment through the Mule Maven Plugin is not yet supported. However, you can deploy using the Runtime Manager UI and the Application Manager Experience APIs by leveraging a new field under `target.deploymentSettings` called `instanceType`.
+// end::vCoreSizeCH2[]
