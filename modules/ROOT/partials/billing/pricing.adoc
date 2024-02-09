@@ -18,6 +18,10 @@ This feature is available only if your organization has the Anypoint Integration
 If your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature has additional capabilities. 
 // end::featureAdvFunctionality[]
 
+// tag::featureAdvLimits[]
+If your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature provides a higher resource allocation. 
+// end::featureAdvLimits[]
+
 // tag::featureResources[]
 If your organization has the Anypoint Integration Starter package or the Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureResources[]
