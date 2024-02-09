@@ -111,3 +111,14 @@ API Manager stores up to 100 MB of logs per API instance for 30 days. Runtime Ma
 // tag::apiAddAlerts[]
 The maximum number of alerts you can create per API instance depends on your plan. Organizations that have the Anypoint Integration Starter package or a Gold or Platinum subscription to Anypoint Platform can have up to six active alerts per API instance. Organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform can have up to ten active alerts per API instance. With all plans, deleting or pausing alerts allows you to create new ones.
 // end::apiAddAlerts[]
+
+// tag::apimKeyMetrics[]
+The metrics avaliable in API Manager are considered *Key Metrics* and are described here. *Key Metrics* are available with all Anypoint Platform subscriptions. For additional Flex Gateway API metrics not included in the *Key Metrics* section, use xref:monitoring::api-analytics-dashboard.adoc[Anypoint Monitoring] (Anypoint Integration Advanced package or Titanium subscriptions only). You can navigate to Anypoint Monitoring by clicking *Anypoint Monitoring* from Anypoint Platform.
+// end::apimKeyMetrics[]
+
+// tag::connectorReq[]
+[NOTE]
+====
+To use Anypoint Custom Metrics Connector, you must have the Anypoint Integration Advanced package or a Titanium subscription. 
+====
+// end::connectorReq[]
