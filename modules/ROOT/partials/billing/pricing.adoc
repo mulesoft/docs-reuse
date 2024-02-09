@@ -119,3 +119,157 @@ The maximum number of alerts you can create per API instance depends on your pla
 // tag::apimKeyMetrics[]
 The metrics avaliable in API Manager are considered *Key Metrics* and are described here. *Key Metrics* are available with all Anypoint Platform subscriptions. For additional Flex Gateway API metrics not included in the *Key Metrics* section, use xref:monitoring::api-analytics-dashboard.adoc[Anypoint Monitoring] (Anypoint Integration Advanced package or Titanium subscriptions only). You can navigate to Anypoint Monitoring by clicking *Anypoint Monitoring* from Anypoint Platform.
 // end::apimKeyMetrics[]
+
+// tag::monitoringTable[]
+The following features are available for Anypoint Platform customers who have usage-based plans:
+
+|===
+| Feature | Anypoint Integration Starter Package | Anypoint Platform Advanced Package | Anypoint Platform PCE | MuleSoft Government Cloud
+
+|Dedicated infrastructure for data processing and storage
+|No
+|Yes
+|Yes
+|No
+
+|Custom metrics
+|No
+|Yes
+|Yes
+|No
+
+4+| *Built-in Application Dashboards*
+|More than 80 out-of-the-box charts covering metrics in the following categories: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
+
+|Yes
+|Yes
+|Yes
+|Yes
+
+|Advanced metrics for Inbound and Outbound charts
+|No
+|Yes
+|Yes
+|No
+
+|Flows charts
+|No
+|Yes
+|Yes
+|No
+
+|Connectors charts
+|No
+|Yes
+|Yes
+|No
+
+|Anypoint Visualizer application network integration
+|No
+|Yes
+|Yes
+|No
+
+|xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
+|No
+|Yes
+|Yes
+|No
+
+4+| *Built-in API Dashboards*
+
+|16 out-of-the-box charts covering metrics in the following categories: Overview, Requests, Failures, Performance, and Client Application 
+|Yes
+|Yes
+|Yes
+|Yes
+
+|xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
+|No
+|Yes
+|Yes
+|No
+
+4+| *Custom Dashboards*
+
+|Basic mode
+|Yes
+|Yes
+|Yes
+|Yes
+
+|Advanced mode
+|Yes, with limited functionality
+|Yes
+|Yes
+|Yes, with limited functionality
+
+|Advanced mode with additional features
+|No
+|Yes
+|Yes
+|No
+
+4+| *Alerts*
+
+|Basic alerts
+|Yes
+|Yes, with xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[higher limits]
+|Yes
+|Yes
+
+|Advanced alerts
+|No
+|Yes
+|Yes
+|No
+
+4+| *Log Management*
+
+|Log search
+|No
+|Yes
+|No
+|No
+
+|Log points
+|No
+|Yes
+|No
+
+|Raw data
+|No
+|Yes
+|No
+
+4+| *Additional Anypoint Monitoring features*
+
+|Anypoint Monitoring Archive API
+|No
+|Yes
+|Yes
+|No
+
+|xref:api-functional-monitoring[API Functional Monitoring] +
+|Yes
+|Yes
+|Yes
+|No
+
+|Reports
+|No
+|Yes
+|Yes
+|No
+
+4+| *Enhanced Support*
+
+|Enhanced Support
+|No
+|Yes
+|No
+|No
+
+|===
+
+// end::monitoringTable[]
