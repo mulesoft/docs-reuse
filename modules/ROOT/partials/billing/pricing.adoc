@@ -30,6 +30,10 @@ If your organization has an Anypoint Integration Starter package or Anypoint Int
 This API is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::apiAvailability[]
 
+// tag::connectorAvailability[]
+This connector is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+// end::connectorAvailability[]
+
 // tag::chartAvailability[]
 The following charts are available only if you are using Unified Agent and your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform:
 // end::chartAvailability[]
@@ -115,10 +119,3 @@ The maximum number of alerts you can create per API instance depends on your pla
 // tag::apimKeyMetrics[]
 The metrics avaliable in API Manager are considered *Key Metrics* and are described here. *Key Metrics* are available with all Anypoint Platform subscriptions. For additional Flex Gateway API metrics not included in the *Key Metrics* section, use xref:monitoring::api-analytics-dashboard.adoc[Anypoint Monitoring] (Anypoint Integration Advanced package or Titanium subscriptions only). You can navigate to Anypoint Monitoring by clicking *Anypoint Monitoring* from Anypoint Platform.
 // end::apimKeyMetrics[]
-
-// tag::connectorReq[]
-[NOTE]
-====
-To use Anypoint Custom Metrics Connector, you must have the Anypoint Integration Advanced package or a Titanium subscription. 
-====
-// end::connectorReq[]
