@@ -42,8 +42,12 @@ This connector is available only if your organization has the Anypoint Integrati
 The following charts are available only if you are using Unified Agent and your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform:
 // end::chartAvailability[]
 
+// tag::apiChartAvailability[]
+This chart is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+// end::apiChartAvailability[]
+
 // tag::metricAvailability[]
-This metric is available only for organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+This metric is available only for organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::metricAvailability[]
 
 // tag::amLogging[]
@@ -67,8 +71,19 @@ If you don't see the *Connectors* tab, verify that you have the Anypoint Integra
 If you don't see the *Flows* tab, verify that you are using Unified Agent and that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 // end::flowsTabAvailability[]
 
+// tag::customMetricsTabAvailability[]
+The *Custom metrics* tab appears only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, and the app you selected is running on a supported version of Mule. See xref:anypoint-custom-metrics-connector.adoc[Anypoint Custom Metrics Connector].
+// end::customMetricsTabAvailability[]
+
+// tag::appNetworkTabAvailability[]
+The *Application Network* tab appears only if: 
+* Your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform
+* You have set up xref:visualizer::index.adoc[Anypoint Visualizer]
+* The app you selected is running on a supported version of Mule.
+// end::appNetworkTabAvailability[]
+
 // tag::availabilityParenthetical[]
-(Anypoint Integration Advanced package or Titanium subscriptions only)
+(Anypoint Integration Advanced package or Titanium subscriptions only).
 // end::availabilityParenthetical[]
 
 // tag::prereqBullet[]
@@ -87,13 +102,16 @@ Anypoint Monitoring provides access to xref:monitoring::logs.adoc[log data] for 
 If your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature is enabled by default.
 // end::enabledFeature[]
 
+// tag::dashboard[]
+The *Dashboard* option is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature is enabled by default.
+// end::dashboard[]
+
 // tag::apiAlerts[]
 
 [%header%autowidth.spread]
 |===
 |Pricing Package | Active Alerts
 | Anypoint Integration Starter | Up to 6
-| Anypoint API Management | Up to 6
 | Anypoint Integration Advanced | Up to 10
 | Gold Subscription | Up to 6
 | Platinum Subscription | Up to 6
@@ -297,7 +315,6 @@ The following features are available for Anypoint Platform customers who have us
 |===
 |Pricing Package |Active Basic Alerts |Active Advanced Alerts
 | Anypoint Integration Starter | 6 per app or API instance | 6 per app or API instance
-| Anypoint API Management | 6 per API instance | 6 per API instance
 | Anypoint Integration Advanced | 10 per app or API instance | 10 per app or API instance
 | Gold Subscription | 50 across the organization | None
 | Platinum Subscription | 50 across the organization | None
