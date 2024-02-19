@@ -83,7 +83,7 @@ The *Application Network* tab appears only if:
 // end::appNetworkTabAvailability[]
 
 // tag::availabilityParenthetical[]
-(Anypoint Integration Advanced package or Titanium subscriptions only).
+(Anypoint Integration Advanced package or Titanium subscriptions only)
 // end::availabilityParenthetical[]
 
 // tag::prereqBullet[]
