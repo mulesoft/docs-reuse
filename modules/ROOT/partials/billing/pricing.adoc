@@ -159,7 +159,7 @@ The metrics avaliable in API Manager are considered *Key Metrics* and are descri
 The following features are available for Anypoint Platform customers who have usage-based plans:
 
 |===
-| Feature | Anypoint Integration Starter Package | Anypoint Platform Advanced Package | Anypoint Platform PCE | MuleSoft Government Cloud
+| Feature | Anypoint Integration Starter Package | Anypoint Platform Advanced Package 
 
 |Dedicated infrastructure for data processing and storage
 |No
