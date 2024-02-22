@@ -78,8 +78,8 @@ The *Custom metrics* tab appears only if your organization has the Anypoint Inte
 // tag::appNetworkTabAvailability[]
 The *Application Network* tab appears only if: 
 
-* Your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform
-* You have set up xref:visualizer::index.adoc[Anypoint Visualizer]
+* Your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+* You have set up xref:visualizer::index.adoc[Anypoint Visualizer].
 * The app you selected is running on a supported version of Mule.
 // end::appNetworkTabAvailability[]
 
