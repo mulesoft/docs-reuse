@@ -164,150 +164,108 @@ The following features are available for Anypoint Platform customers who have us
 |Dedicated infrastructure for data processing and storage
 |No
 |Yes
-|Yes
-|No
 
 |Custom metrics
 |No
 |Yes
-|Yes
-|No
 
-5+| *Built-in Application Dashboards*
+3+| *Built-in Application Dashboards*
 |More than 80 out-of-the-box charts covering metrics in the following categories: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
-|Yes
-|Yes
 |Yes
 |Yes
 
 |Advanced metrics for Inbound and Outbound charts
 |No
 |Yes
-|Yes
-|No
 
 |Flows charts
 |No
 |Yes
-|Yes
-|No
 
 |Connectors charts
 |No
 |Yes
-|Yes
-|No
 
 |Anypoint Visualizer application network integration
 |No
 |Yes
-|Yes
-|No
 
 |xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
 |No
 |Yes
-|Yes
-|No
 
-5+| *Built-in API Dashboards*
+3+| *Built-in API Dashboards*
 
 |16 out-of-the-box charts covering metrics in the following categories: Overview, Requests, Failures, Performance, and Client Application 
 |Yes
 |Yes
-|Yes
-|Yes
 
 |xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
 |No
 |Yes
-|Yes
-|No
 
-5+| *Custom Dashboards*
+3+| *Custom Dashboards*
 
 |Basic mode
-|Yes
-|Yes
 |Yes
 |Yes
 
 |Advanced mode
 |Yes, with limited functionality
 |Yes
-|Yes
-|Yes, with limited functionality
 
 |Advanced mode with additional features
 |No
 |Yes
-|Yes
-|No
 
-5+| *Alerts*
+3+| *Alerts*
 
 |Basic alerts
 |Yes
 |Yes, with xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[higher limits]
-|Yes
-|Yes
 
 |Advanced alerts
 |No
 |Yes
-|Yes
-|No
 
-5+| *Log Management*
+3+| *Log Management*
 
 |Log search
 |No
 |Yes
-|No
-|No
 
 |Log points
 |No
 |Yes
-|No
-|No
 
 |Raw data
 |No
 |Yes
-|No
-|No
 
 5+| *Additional Anypoint Monitoring features*
 
 |Anypoint Monitoring Archive API
 |No
 |Yes
-|Yes
-|No
 
 |xref:api-functional-monitoring[API Functional Monitoring] +
 |Yes
 |Yes
-|Yes
-|No
 
 |Reports
 |No
 |Yes
-|Yes
-|No
 
-5+| *Enhanced Support*
+3+| *Enhanced Support*
 
 |Enhanced Support
 |No
 |Yes
-|No
-|No
 
 |===
+
+NOTE: Anypoint Visualizer application network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
 
 // end::monitoringTable[]
 
@@ -322,3 +280,11 @@ The following features are available for Anypoint Platform customers who have us
 | Titanium Subscription | 50 times the number of vCores in your org, plus 100 | 20 across the organization
 |===
 // end::monitoringAlerts[]
+
+// tag::dataRetentionMonitoring[]
+* For the Anypoint Integration Starter package or Gold/Platinum subscriptions
+** Stores metric data in the same region as your control plane: US East (N. Virginia) or EU (Frankfurt)
+* For the Anypoing Integration Advanced package or Titanium subscription
+** Significantly increases the storage
+** Stores log and metric data in the same region as your control plane: US East (N. Virginia) or EU (Frankfurt)
+// end::dataRetentionMonitoring[]
