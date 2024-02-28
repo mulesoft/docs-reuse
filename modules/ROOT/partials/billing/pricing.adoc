@@ -27,7 +27,7 @@ If your organization has the Anypoint Integration Starter package or the Anypoin
 // end::featureResources[]
 
 // tag::featureUsageReports[]
-If your organization has the Anypoint Integration Starter package or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports].  For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+If your organization has the Anypoint Integration Starter package or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports]. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureUsageReports[]
 
 // tag::apiAvailability[]
@@ -43,11 +43,11 @@ The following charts are available only if you are using Unified Agent and your 
 // end::chartAvailability[]
 
 // tag::apiChartAvailability[]
-This chart is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+This chart is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 // end::apiChartAvailability[]
 
 // tag::metricAvailability[]
-This metric is available only for organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+This metric is available only for organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 // end::metricAvailability[]
 
 // tag::amLogging[]
@@ -273,7 +273,7 @@ NOTE: Anypoint Visualizer application network integration refers to an Anypoint 
 [%header%autowidth.spread]
 |===
 |Pricing Package |Active Basic Alerts |Active Advanced Alerts
-| Anypoint Integration Starter | 6 per app or API instance | 6 per app or API instance
+| Anypoint Integration Starter | 6 per app or API instance | None
 | Anypoint Integration Advanced | 10 per app or API instance | 10 per app or API instance
 | Gold Subscription | 50 across the organization | None
 | Platinum Subscription | 50 across the organization | None
