@@ -57,7 +57,7 @@ xref:monitoring::logs.adoc[Logging in Anypoint Monitoring] is available only if 
 // tag::connectorTabAvailability[]
 If you don't see the *Connectors* tab, verify that: 
 
-* You have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform
+* You have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 * The app you selected is a hybrid app deployed to a server, server group, or cluster. 
 
 For more information, see xref:monitoring::monitor-connectors.adoc[Monitor Connectors]. 
