@@ -1,0 +1,292 @@
+//// 
+
+The following content has metering/billing information but cannot use these partials:
+
+* Access Management: 
+** - vCore entitlement/distribution information lives in UBP
+* Anypoint Monitoring: 
+** `am-installing.adoc` - disable log forwarding
+** `api-analytics-dashboard.adoc` - limits on subscriptions
+
+////
+
+// tag::featureAdvReq[]
+This feature is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+// end::featureAdvReq[]
+
+// tag::featureAdvFunctionality[]
+If your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature has additional capabilities. 
+// end::featureAdvFunctionality[]
+
+// tag::featureAdvLimits[]
+If your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature provides a higher resource allocation. 
+// end::featureAdvLimits[]
+
+// tag::featureResources[]
+If your organization has the Anypoint Integration Starter package or the Anypoint Integration Advanced package, this feature uses an assortment of metrics as its primary resource. If your organization has a Gold, Platinum, or Titanium subscription to Anypoint Platform, this feature uses vCores. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+// end::featureResources[]
+
+// tag::featureUsageReports[]
+If your organization has the Anypoint Integration Starter package or Anypoint Integration Advanced package, usage metrics related to this feature appear in xref:general::usage-reports.adoc[Usage Reports]. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+// end::featureUsageReports[]
+
+// tag::apiAvailability[]
+This API is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+// end::apiAvailability[]
+
+// tag::connectorAvailability[]
+This connector is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
+// end::connectorAvailability[]
+
+// tag::chartAvailability[]
+The following charts are available only if you are using Unified Agent and your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform:
+// end::chartAvailability[]
+
+// tag::apiChartAvailability[]
+This chart is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::apiChartAvailability[]
+
+// tag::metricAvailability[]
+This metric is available only for organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::metricAvailability[]
+
+// tag::amLogging[]
+xref:monitoring::logs.adoc[Logging in Anypoint Monitoring] is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::amLogging[]
+
+// tag::connectorTabAvailability[]
+If you don't see the *Connectors* tab, verify that: 
+
+* You have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+* The app you selected is a hybrid app deployed to a server, server group, or cluster. 
+
+For more information, see xref:monitoring::monitor-connectors.adoc[Monitor Connectors]. 
+// end::connectorTabAvailability[]
+
+// tag::connectorTabReq[]
+If you don't see the *Connectors* tab, verify that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and that the app you selected is running on a supported version of Mule.
+// end::connectorTabReq[]
+
+// tag::flowsTabAvailability[]
+If you don't see the *Flows* tab, verify that you are using Unified Agent and that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::flowsTabAvailability[]
+
+// tag::customMetricsTabAvailability[]
+The *Custom metrics* tab appears only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and the app you selected is running on a supported version of Mule. See xref:anypoint-custom-metrics-connector.adoc[Anypoint Custom Metrics Connector].
+// end::customMetricsTabAvailability[]
+
+// tag::appNetworkTabAvailability[]
+The *Application Network* tab appears only if: 
+
+* Your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+* You have set up xref:visualizer::index.adoc[Anypoint Visualizer].
+* The app you selected is running on a supported version of Mule.
+// end::appNetworkTabAvailability[]
+
+// tag::availabilityParenthetical[]
+(Anypoint Integration Advanced package or Titanium subscriptions only)
+// end::availabilityParenthetical[]
+
+// tag::prereqBullet[]
+* The Anypoint Integration Advanced package or a Platinum or Titanium subscription to Anypoint Platform
+// end::prereqBullet[]
+
+// tag::securityPrereq[]
+Runtime Fabric requires the Anypoint Integration Advanced package or a Platinum or Titanium subscription to Anypoint Platform.
+// end::securityPrereq[]
+
+// tag::logForwardingAM[]
+Anypoint Monitoring provides access to xref:monitoring::logs.adoc[log data] for applications deployed to Runtime Fabric. To access logs with Anypoint Monitoring, you need the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::logForwardingAM[]
+
+// tag::enabledFeature[]
+If your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature is enabled by default.
+// end::enabledFeature[]
+
+// tag::dashboard[]
+The *Dashboard* option is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
+// end::dashboard[]
+
+// tag::apiAlerts[]
+
+[%header%autowidth.spread]
+|===
+|Pricing Package | Active Alerts
+| Anypoint Integration Starter | Up to 6
+| Anypoint Integration Advanced | Up to 10
+| Gold Subscription | Up to 6
+| Platinum Subscription | Up to 6
+| Titanium Subscription | Up to 10
+|===
+
+// end::apiAlerts[]
+
+// tag::vCoreSizeCH2[]
+If your organization uses the Anypoint Integration Starter package or Anypoint Integration Advanced package, CloudHub 2.0 uses replica sizing for application deployment. You can choose from the following replica sizes based on the application profile or size and display the equivalent in terms of vCores:
+
+[%header,cols="5*a"]
+|===
+|Offering          | Equivalent vCore Size | Total Memory | Heap Memory | Storage
+|mule.nano         | 0.05                  | 1 GB         | 0.5 GB      | 8 GB
+|mule.micro        | 0.1                   | 1 GB         | 0.5 GB      | 8 GB
+|mule.micro.mem    | 0.1                   | 2 GB         | 1 GB        | 8 GB
+|mule.small        | 0.2                   | 2 GB         | 1 GB        | 8 GB
+|mule.medium       | 0.5                   | 3 GB         | 1.5 GB      | 10 GB
+|mule.medium.mem   | 0.5                   | 5 GB         | 2.5 GB      | 10 GB
+|mule.large        | 1                     | 4 GB         | 2 GB        | 12 GB
+|mule.large.mem    | 1                     | 8 GB         | 4 GB        | 12 GB
+|mule.xlarge       | 2                     | 7 GB         | 3.5 GB      | 20 GB
+|mule.xlarge.mem   | 2                     | 12 GB        | 6 GB        | 20 GB
+|mule.2xlarge.mem  | 4                     | 15 GB        | 7.5 GB      | 20 GB
+|===
+
+Replica sizes with the suffix `.mem` are memory-intensive options with the same compute. 
+
+During the monthly patching cycle, your applications automatically migrate to an equivalent replica size. Application deployment through the Mule Maven Plugin is not yet supported. However, you can deploy using the Runtime Manager UI and the Application Manager Experience APIs by leveraging a new field under `target.deploymentSettings` called `instanceType`.
+// end::vCoreSizeCH2[]
+
+// tag::apimLogging[]
+API Manager stores up to 100 MB of logs per API instance for 30 days. Runtime Manager automatically purges logs that go beyond 100 MB per API instance. If you need more storage, you can either use a third-party service (configured through a policy) or sign up for the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. 
+// end::apimLogging[]
+
+// tag::apiAddAlerts[]
+The maximum number of alerts you can create per API instance depends on your plan. Organizations that have the Anypoint Integration Starter package or a Gold or Platinum subscription to Anypoint Platform can have up to six active alerts per API instance. Organizations that have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform can have up to ten active alerts per API instance. With all plans, deleting or pausing alerts allows you to create new ones.
+// end::apiAddAlerts[]
+
+// tag::apimKeyMetrics[]
+The metrics available in API Manager are considered *Key Metrics* and are described here. *Key Metrics* are available with all Anypoint Platform subscriptions. For additional Flex Gateway API metrics not included in the *Key Metrics* section, use xref:monitoring::api-analytics-dashboard.adoc[Anypoint Monitoring] (Anypoint Integration Advanced package or Titanium subscriptions only). You can navigate to Anypoint Monitoring by clicking *Anypoint Monitoring* from Anypoint Platform.
+// end::apimKeyMetrics[]
+
+// tag::monitoringTable[]
+The following features are available for Anypoint Platform customers who have usage-based plans:
+
+|===
+| Feature | Anypoint Integration Starter Package | Anypoint Platform Advanced Package 
+
+|Dedicated infrastructure for data processing and storage
+|No
+|Yes
+
+|Custom metrics
+|No
+|Yes
+
+3+| *Built-in Application Dashboards*
+|More than 80 out-of-the-box charts covering metrics in the following categories: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
+
+|Yes
+|Yes
+
+|Advanced metrics for Inbound and Outbound charts
+|No
+|Yes
+
+|Flows charts
+|No
+|Yes
+
+|Connectors charts
+|No
+|Yes
+
+|Anypoint Visualizer application network integration
+|No
+|Yes
+
+|xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
+|No
+|Yes
+
+3+| *Built-in API Dashboards*
+
+|16 out-of-the-box charts covering metrics in the following categories: Overview, Requests, Failures, Performance, and Client Application 
+|Yes
+|Yes
+
+|xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
+|No
+|Yes
+
+3+| *Custom Dashboards*
+
+|Basic mode
+|Yes
+|Yes
+
+|Advanced mode
+|Yes, with limited functionality
+|Yes
+
+|Advanced mode with additional features
+|No
+|Yes
+
+3+| *Alerts*
+
+|Basic alerts
+|Yes
+|Yes, with xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[higher limits]
+
+|Advanced alerts
+|No
+|Yes
+
+3+| *Log Management*
+
+|Log search
+|No
+|Yes
+
+|Log points
+|No
+|Yes
+
+|Raw data
+|No
+|Yes
+
+5+| *Additional Anypoint Monitoring features*
+
+|Anypoint Monitoring Archive API
+|No
+|Yes
+
+|xref:api-functional-monitoring[API Functional Monitoring] +
+|Yes
+|Yes
+
+|Reports
+|No
+|Yes
+
+3+| *Enhanced Support*
+
+|Enhanced Support
+|No
+|Yes
+
+|===
+
+NOTE: Anypoint Visualizer application network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
+
+// end::monitoringTable[]
+
+// tag::monitoringAlerts[]
+[%header%autowidth.spread]
+|===
+|Pricing Package |Active Basic Alerts |Active Advanced Alerts
+| Anypoint Integration Starter | 6 per app or API instance | None
+| Anypoint Integration Advanced | 10 per app or API instance | 10 per app or API instance
+| Gold Subscription | 50 across the organization | None
+| Platinum Subscription | 50 across the organization | None
+| Titanium Subscription | 50 times the number of vCores in your org, plus 100 | 20 across the organization
+|===
+// end::monitoringAlerts[]
+
+// tag::dataRetentionMonitoring[]
+* For the Anypoint Integration Starter package or Gold/Platinum subscriptions
+** Stores metric data in the same region as your control plane: US East (N. Virginia) or EU (Frankfurt)
+* For the Anypoing Integration Advanced package or Titanium subscription
+** Significantly increases the storage
+** Stores log and metric data in the same region as your control plane: US East (N. Virginia) or EU (Frankfurt)
+// end::dataRetentionMonitoring[]
