@@ -57,14 +57,14 @@ xref:monitoring::logs.adoc[Logging in Anypoint Monitoring] is available only if 
 // tag::connectorTabAvailability[]
 If you don't see the *Connectors* tab, verify that: 
 
-* You have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform
+* You have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 * The app you selected is a hybrid app deployed to a server, server group, or cluster. 
 
 For more information, see xref:monitoring::monitor-connectors.adoc[Monitor Connectors]. 
 // end::connectorTabAvailability[]
 
 // tag::connectorTabReq[]
-If you don't see the *Connectors* tab, verify that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, and that the app you selected is running on a supported version of Mule.
+If you don't see the *Connectors* tab, verify that you have the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and that the app you selected is running on a supported version of Mule.
 // end::connectorTabReq[]
 
 // tag::flowsTabAvailability[]
@@ -72,7 +72,7 @@ If you don't see the *Flows* tab, verify that you are using Unified Agent and th
 // end::flowsTabAvailability[]
 
 // tag::customMetricsTabAvailability[]
-The *Custom metrics* tab appears only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, and the app you selected is running on a supported version of Mule. See xref:anypoint-custom-metrics-connector.adoc[Anypoint Custom Metrics Connector].
+The *Custom metrics* tab appears only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and the app you selected is running on a supported version of Mule. See xref:anypoint-custom-metrics-connector.adoc[Anypoint Custom Metrics Connector].
 // end::customMetricsTabAvailability[]
 
 // tag::appNetworkTabAvailability[]
@@ -104,7 +104,7 @@ If your organization has the Anypoint Integration Advanced package or a Titanium
 // end::enabledFeature[]
 
 // tag::dashboard[]
-The *Dashboard* option is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform, this feature is enabled by default.
+The *Dashboard* option is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform.
 // end::dashboard[]
 
 // tag::apiAlerts[]
@@ -122,7 +122,7 @@ The *Dashboard* option is available only if your organization has the Anypoint I
 // end::apiAlerts[]
 
 // tag::vCoreSizeCH2[]
-If your organization uses the Anypoint Integration Starter package or Anypoint Integration Advanced package, CloudHub 2.0 uses replica sizing for application deployment. You can choose from the following replica sizes based on the application profile or size and display the equivalent in terms of vCores. Replica sizes with the suffix `.mem` are memory-intensive options with the same compute. 
+If your organization uses the Anypoint Integration Starter package or Anypoint Integration Advanced package, CloudHub 2.0 uses replica sizing for application deployment. You can choose from the following replica sizes based on the application profile or size and display the equivalent in terms of vCores:
 
 [%header,cols="5*a"]
 |===
@@ -139,6 +139,8 @@ If your organization uses the Anypoint Integration Starter package or Anypoint I
 |mule.xlarge.mem   | 2                     | 12 GB        | 6 GB        | 20 GB
 |mule.2xlarge.mem  | 4                     | 15 GB        | 7.5 GB      | 20 GB
 |===
+
+Replica sizes with the suffix `.mem` are memory-intensive options with the same compute. 
 
 During the monthly patching cycle, your applications automatically migrate to an equivalent replica size. Application deployment through the Mule Maven Plugin is not yet supported. However, you can deploy using the Runtime Manager UI and the Application Manager Experience APIs by leveraging a new field under `target.deploymentSettings` called `instanceType`.
 // end::vCoreSizeCH2[]
