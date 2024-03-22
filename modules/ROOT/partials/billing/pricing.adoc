@@ -91,6 +91,10 @@ The *Application Network* tab appears only if:
 * The Anypoint Integration Advanced package or a Platinum or Titanium subscription to Anypoint Platform
 // end::prereqBullet[]
 
+// tag::prereqBulletTitanium[]
+* The Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform
+// end::prereqBulletTitanium[]
+
 // tag::securityPrereq[]
 Runtime Fabric requires the Anypoint Integration Advanced package or a Platinum or Titanium subscription to Anypoint Platform.
 // end::securityPrereq[]
