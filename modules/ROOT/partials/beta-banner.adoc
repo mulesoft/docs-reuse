@@ -1,7 +1,7 @@
 //tag::anypoint-code-builder[]
 [.notice-banner]
 
-*Open Beta Release*: The cloud IDE and the feature Einstein for Anypoint Code Builder Generative Flows are in open beta. Any use of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions, available from the IDE.
+*Open Beta Release*: The *cloud IDE and the feature Einstein for Anypoint Code Builder Generative Flows* are in open beta. Any use of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions, available from the IDE.
 //end::anypoint-code-builder[]
 
 //tag::apikit[]
