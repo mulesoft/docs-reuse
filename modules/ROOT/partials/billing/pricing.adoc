@@ -290,7 +290,7 @@ NOTE: Anypoint Visualizer application network integration refers to an Anypoint 
 // tag::dataRetentionMonitoring[]
 * For the Anypoint Integration Starter package or Gold/Platinum subscriptions
 ** Stores metric data in the same region as your control plane: US East (N. Virginia) or EU (Frankfurt)
-* For the Anypoing Integration Advanced package or Titanium subscription
+* For the Anypoint Integration Advanced package or Titanium subscription
 ** Significantly increases the storage
 ** Stores log and metric data in the same region as your control plane: US East (N. Virginia) or EU (Frankfurt)
 // end::dataRetentionMonitoring[]
