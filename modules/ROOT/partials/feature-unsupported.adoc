@@ -1,0 +1,4 @@
+//tag::unsupported-feature[]
+[.notice-banner]
+This feature is currently not supported.
+//end::unsupported-feature[]
