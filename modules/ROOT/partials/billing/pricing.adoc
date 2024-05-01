@@ -171,6 +171,11 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
+|Telemetry Exporter for audit logs and traces
+|No
+|No
+|Yes
+
 |Custom metrics
 |No
 |Yes
