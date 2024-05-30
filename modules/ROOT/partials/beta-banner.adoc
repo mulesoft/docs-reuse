@@ -14,6 +14,6 @@
 //tag::apikit-asyncapi[]
 [.notice-banner]
 
-*Open Beta Release*: Any use of APIkit for AsyncAPI in its beta state is subject to the applicable beta services xref:anypoint-code-builder::accept-terms-and-conditions.adoc[terms and conditions].
+*Open Beta Release*: Any use of APIkit for AsyncAPI in its beta state is subject to the applicable beta services terms and conditions.
 --
 //end::apikit-asyncapi[]
