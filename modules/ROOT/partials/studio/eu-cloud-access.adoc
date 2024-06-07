@@ -5,7 +5,7 @@ Configure your Anypoint Studio implementation to point to the EU control plane t
 * In Windows and Linux, navigate to *Window* > *Preferences...*.
 . Expand *Anypoint Studio* in the left navigation bar, and select *Anypoint Platform*:
 +
-image::reuse::studio-anypoint-platform-settings.png["Anypoint Studio highlighted in the navigation bar."]
+image::reuse::studio-anypoint-platform-settings.png[alt="Anypoint Studio highlighted in the navigation bar."]
 . Select *EU* from the region drop-down menu, and then select *Apply and Close*:
 +
 image::reuse::select-eu-region.png["EU option and Apply and Close button highlighted."]
