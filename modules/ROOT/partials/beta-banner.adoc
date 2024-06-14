@@ -23,4 +23,4 @@
 
 *Open Beta Release*: AsyncAPI implementation support in Anypoint Studio is in open beta. Any use of AsyncAPI with Studio in its beta state is subject to the applicable beta services terms and conditions.
 --
-//end::async-asyncapi[]
+//end::studio-asyncapi[]
