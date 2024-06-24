@@ -1,26 +1,23 @@
 //tag::anypoint-code-builder[]
 [.notice-banner]
 
-*Open Beta Release*: The *cloud IDE is in open beta*. Any use of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions, available from the IDE.
+*Open Beta Release*: The *cloud IDE and AsyncAPI implementation support are in open beta*. Any use of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions, available from the IDE.
 //end::anypoint-code-builder[]
 
 //tag::apikit[]
 [.notice-banner]
 
 *Open Beta Release*: Any use of APIkit for GraphQL in its beta state is subject to the applicable beta services terms and conditions.
---
 //end::apikit[]
 
 //tag::apikit-asyncapi[]
 [.notice-banner]
 
 *Open Beta Release*: Any use of APIkit for AsyncAPI in its beta state is subject to the applicable beta services terms and conditions.
---
 //end::apikit-asyncapi[]
 
 //tag::studio-asyncapi[]
 [.notice-banner]
 
 *Open Beta Release*: AsyncAPI implementation support in Anypoint Studio is in open beta. Any use of AsyncAPI with Studio in its beta state is subject to the applicable beta services terms and conditions.
---
 //end::studio-asyncapi[]
