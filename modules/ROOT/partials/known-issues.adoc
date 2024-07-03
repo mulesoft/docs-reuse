@@ -1,0 +1,5 @@
+// Link to KI site
+// include::reuse::partial$known-issues.adoc[tag=knownIssuesLink]
+// tag::knownIssuesLink[]
+For additional known issue information about this product, see https://issues.salesforce.com/[Known Issues].
+// end::knownIssuesLink[]
