@@ -9,9 +9,11 @@
 // include::reuse::partial$eol-banner.adoc[tag=asmEolScheduled]
 // tag::asmEolScheduled[]
 [.notice-banner]
+====
 This product is scheduled for https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
 
 To integrate your micro services with Anypoint Platform, use Flex Gateway. For more information, see xref:gateway::flex-gateway-istio.adoc[].
+====
 // end::asmEolScheduled[]
 
 
