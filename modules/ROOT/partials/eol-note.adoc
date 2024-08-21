@@ -53,7 +53,7 @@ This feature of the product has entered https://help.mulesoft.com/s/article/Mule
 // end::extendedSupportFeature[]
 
 // ASM Product Scheduled for EOL 
-// include::reuse::partial$eol-note.adoc[tag=extendedSupportFeature]
+// include::reuse::partial$eol-note.adoc[tag=asmEolScheduled]
 // tag::asmEolScheduled[]
 This product is scheduled for https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
 
