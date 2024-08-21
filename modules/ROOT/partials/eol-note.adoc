@@ -51,3 +51,12 @@ This version of the product has entered https://help.mulesoft.com/s/article/Mule
 // tag::extendedSupportFeature[]
 This feature of the product has entered https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[Extended Support^].
 // end::extendedSupportFeature[]
+
+// ASM Product Scheduled for EOL 
+// include::reuse::partial$eol-note.adoc[tag=extendedSupportFeature]
+// tag::ASMeolScheduled[]
+This product is scheduled for https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
+
+To integrate your micro services with Anypoint Platform, use Flex Gateway. For more information, see xref:gateway::flex-gateway-istio.adoc[].
+// end::ASMeolScheduled[]
+
