@@ -1,14 +1,3 @@
-//// 
-
-The following content has metering/billing information but cannot use these partials:
-
-* Access Management: 
-** - vCore entitlement/distribution information lives in UBP
-* Anypoint Monitoring: 
-** `am-installing.adoc` - disable log forwarding
-** `api-analytics-dashboard.adoc` - limits on subscriptions
-
-////
 
 // tag::featureAdvReq[]
 This feature is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
@@ -171,18 +160,33 @@ The following features are available for Anypoint Platform customers who have us
 |===
 | Feature | Anypoint Integration Starter Package | Anypoint Platform Advanced Package 
 
+//TBD_TBD_TBD: is support correct?
 |Dedicated infrastructure for data processing and storage
 |No
 |Yes
 
-|Telemetry Exporter for audit logs and traces
+//UPDATED description
+// |Telemetry Exporter for audit logs and traces
+|Realtime xref:monitoring::telemetry-exporter.adoc[export of telemetry data] (audit logs and traces).
 |No
 |Yes
 
-|Custom metrics
+//NEW
+|xref:monitoring::anypoint-custom-metrics-connector.adoc[Custom metrics]
 |No
 |Yes
 
+//UPDATED (consolidated)
+|xref:monitoring::alerts.adoc[Alerts]
+|No
+|Yes
+
+//UPDATED (consolidated)
+| xref:dashboard-custom-config.adoc[Custom dashboards]
+|No
+|Yes
+
+//TBD_TBD_TBD: is support correct?
 3+| *Built-in Application Dashboards*
 |More than 80 out-of-the-box charts covering metrics in the following categories: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
@@ -201,14 +205,17 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-|Anypoint Visualizer application network integration
+//TBD_TBD_TBD: is support correct?
+|<<visualizer-widget, Anypoint Visualizer application network integration>>
 |No
 |Yes
 
+//TBD_TBD_TBD: is support correct?
 |xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
 |No
 |Yes
 
+//TBD_TBD_TBD: Are built-in details correct here?
 3+| *Built-in API Dashboards*
 
 |16 out-of-the-box charts covering metrics in the following categories: Overview, Requests, Failures, Performance, and Client Application 
@@ -219,67 +226,90 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-3+| *Custom Dashboards*
 
-|Basic mode
-|Yes
-|Yes
+// MOVED & REPLACED ABOVE
+// | *Custom Dashboards*
+//
+// |Basic mode
+// |Yes
+// |Yes
+// 
+// |Advanced mode
+// |Yes, with limited functionality
+// |Yes
+// 
+// |Advanced mode with additional features
+// |No
+// |Yes
 
-|Advanced mode
-|Yes, with limited functionality
-|Yes
+// MOVED Alerts to above, consolidated
+// 3+| *Alerts*
+//
+// |Basic alerts
+// |Yes
+// |Yes, with xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[higher limits]
+//
+// |Advanced alerts
+// |No
+// |Yes
 
-|Advanced mode with additional features
+6+| *Log Management*
+
+//NEW: TODO_TODO_TODO: what does "distributed" mean here?
+|Distributed log management 
 |No
 |Yes
 
-3+| *Alerts*
+//UPDATED
+|xref:monitoring::log-search-query-syntax.adoc[Log search]
+|Yes (single application only)
+|Yes (cross-application)
 
-|Basic alerts
-|Yes
-|Yes, with xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[higher limits]
-
-|Advanced alerts
+|xref:monitoring::log-points.adoc[Log points]
 |No
 |Yes
 
-3+| *Log Management*
-
-|Log search
+//UPDATED description
+|Raw log data downloads
 |No
 |Yes
 
-|Log points
-|No
+//NEW: Log tailing: recent data from a log file
+|Log tailing
+|Yes
 |Yes
 
-|Raw data
-|No
-|Yes
-
+//TBD_TBD_TBD: entire category
 5+| *Additional Anypoint Monitoring features*
 
+//TBD_TBD_TBD: is support correct?
 |Anypoint Monitoring Archive API
 |No
 |Yes
 
+//TBD_TBD_TBD: is support correct?
 |xref:api-functional-monitoring[API Functional Monitoring] +
 |Yes
 |Yes
 
-|Reports
+//TBD_TBD_TBD: is support correct?
+|xref:reports.adoc[Reports]
 |No
 |Yes
 
+
+//TBD_TBD_TBD: entire category: what does "enhanced support" mean?
 3+| *Enhanced Support*
 
+//TBD_TBD_TBD: is support correct?
 |Enhanced Support
 |No
 |Yes
 
 |===
 
-NOTE: Anypoint Visualizer application network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
+[[visualizer-widget]]
+Anypoint Visualizer application network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
 
 // end::monitoringTable[]
 
@@ -302,3 +332,17 @@ NOTE: Anypoint Visualizer application network integration refers to an Anypoint 
 ** Significantly increases the storage
 ** Stores log and metric data in the same region as your control plane: US East (N. Virginia) or EU (Frankfurt)
 // end::dataRetentionMonitoring[]
+
+
+// MOVED FROM TOP OF PAGE TO HERE:
+//// 
+
+The following content has metering/billing information but cannot use these partials:
+
+* Access Management: 
+** - vCore entitlement/distribution information lives in UBP
+* Anypoint Monitoring: 
+** `am-installing.adoc` - disable log forwarding
+** `api-analytics-dashboard.adoc` - limits on subscriptions
+
+////
