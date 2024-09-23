@@ -160,7 +160,7 @@ The following features are available for Anypoint Platform customers who have us
 |===
 | Feature | Anypoint Integration Starter Package | Anypoint Platform Advanced Package 
 
-//TBD_TBD_TBD: is support correct?
+//NOT UPDATED (FUTURE CHANGE TBD)
 |Dedicated infrastructure for data processing and storage
 |No
 |Yes
@@ -186,7 +186,7 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-//TBD_TBD_TBD: is support correct?
+//NOT UPDATED
 3+| *Built-in Application Dashboards*
 |More than 80 out-of-the-box charts covering metrics in the following categories: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
@@ -205,17 +205,17 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-//TBD_TBD_TBD: is support correct?
+//NOT UPDATED
 |<<visualizer-widget, Anypoint Visualizer application network integration>>
 |No
 |Yes
 
-//TBD_TBD_TBD: is support correct?
+//NOT UPDATED
 |xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
 |No
 |Yes
 
-//TBD_TBD_TBD: Are built-in details correct here?
+//NOT UPDATED
 3+| *Built-in API Dashboards*
 
 |16 out-of-the-box charts covering metrics in the following categories: Overview, Requests, Failures, Performance, and Client Application 
@@ -225,33 +225,6 @@ The following features are available for Anypoint Platform customers who have us
 |xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
 |No
 |Yes
-
-
-// MOVED & REPLACED ABOVE
-// | *Custom Dashboards*
-//
-// |Basic mode
-// |Yes
-// |Yes
-// 
-// |Advanced mode
-// |Yes, with limited functionality
-// |Yes
-// 
-// |Advanced mode with additional features
-// |No
-// |Yes
-
-// MOVED Alerts to above, consolidated
-// 3+| *Alerts*
-//
-// |Basic alerts
-// |Yes
-// |Yes, with xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[higher limits]
-//
-// |Advanced alerts
-// |No
-// |Yes
 
 6+| *Log Management*
 
@@ -279,20 +252,20 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 |Yes
 
-//TBD_TBD_TBD: entire category
+//NOT UPDATED
 5+| *Additional Anypoint Monitoring features*
 
-//TBD_TBD_TBD: is support correct?
+//NOT UPDATED
 |Anypoint Monitoring Archive API
 |No
 |Yes
 
-//TBD_TBD_TBD: is support correct?
+//NOT UPDATED
 |xref:api-functional-monitoring[API Functional Monitoring] +
 |Yes
 |Yes
 
-//TBD_TBD_TBD: is support correct?
+//NOT UPDATED
 |xref:reports.adoc[Reports]
 |No
 |Yes
@@ -317,7 +290,6 @@ Anypoint Visualizer application network integration refers to an Anypoint Visual
 [%header%autowidth.spread]
 |===
 |Pricing Package |Active Basic Alerts |Active Advanced Alerts
-| Anypoint Integration Starter | 6 per app or API instance | None
 | Anypoint Integration Advanced | 10 per app or API instance | 10 per app or API instance
 | Gold Subscription | 50 across the organization | None
 | Platinum Subscription | 50 across the organization | None
