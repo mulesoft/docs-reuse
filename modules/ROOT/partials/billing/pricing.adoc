@@ -304,17 +304,3 @@ Anypoint Visualizer application network integration refers to an Anypoint Visual
 ** Significantly increases the storage
 ** Stores log and metric data in the same region as your control plane: US East (N. Virginia) or EU (Frankfurt)
 // end::dataRetentionMonitoring[]
-
-
-// MOVED FROM TOP OF PAGE TO HERE:
-//// 
-
-The following content has metering/billing information but cannot use these partials:
-
-* Access Management: 
-** - vCore entitlement/distribution information lives in UBP
-* Anypoint Monitoring: 
-** `am-installing.adoc` - disable log forwarding
-** `api-analytics-dashboard.adoc` - limits on subscriptions
-
-////
