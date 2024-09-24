@@ -69,40 +69,35 @@
 
 // end::api-design-fragment-support[]
 //
+// Implementation is about scaffolding into a Mule app supported in ACB and Studio (not DC) via APIkit features
 // tag::api-spec-implementation-support[]
 
 [%header%autowidth.spread]
 |===
-|Spec Implementation Language |Design Center |Anypoint Code Builder |Studio
+|Spec Implementation Language |Anypoint Code Builder |Studio
 
 |RAML 0.8  
-|
 |Yes
 |Yes
 
 |RAML 1.0  
-|
 |Yes
 |Yes
 
 
 |OAS 2.0
-|
 |Yes
 |Yes
 
 |OAS 3.0
-|
 |Yes
 |Yes
 
 |AsyncAPI 2.0
-|
 |Yes
 |Yes
 
 |AsyncAPI 2.6
-|
 |Yes
 |Yes
 |===
