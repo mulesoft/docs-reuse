@@ -99,7 +99,7 @@
 |AsyncAPI 2.0
 |
 |Yes
-|
+|Yes
 
 |AsyncAPI 2.6
 |
