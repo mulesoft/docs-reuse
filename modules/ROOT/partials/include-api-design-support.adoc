@@ -46,22 +46,35 @@
 |===
 |API Fragment Design |Design Center |Anypoint Code Builder |Studio
 
-|Avro Schema
+|AsyncAPI 2.0 fragment
+|
+|
+
+|AsyncAPI 2.6 fragment
+|
+|
+
+|Avro schema
 |No
 |Yes
 |No
 
-|JSON Schema
+|JSON schema
 |Yes
 |Yes
 |No
 
-|OAS 3.0
+|OAS 3.0 fragment
 |Yes
 |Yes
 |Yes
 
-|RAML 1.0
+|RAML 0.8 fragment
+|
+|
+|
+
+|RAML 1.0 fragment
 |Yes
 |Yes
 |Yes
@@ -69,72 +82,81 @@
 
 // end::api-design-fragment-support[]
 //
-// Implementation is about scaffolding into a Mule app supported in ACB and Studio (not DC) via APIkit features
+// Spec implementation is about scaffolding into a Mule app supported in ACB and Studio (not DC) via APIkit features
 // tag::api-spec-implementation-support[]
 
 [%header%autowidth.spread]
 |===
 |Spec Implementation Language |Anypoint Code Builder |Studio
 
-|RAML 0.8  
+|AsyncAPI 2.0 spec
 |Yes
 |Yes
 
-|RAML 1.0  
+|AsyncAPI 2.6 spec
 |Yes
 |Yes
 
+|Avro schema
+|
+|
+|
 
-|OAS 2.0
-|Yes
-|Yes
-
-|OAS 3.0
-|Yes
-|Yes
-
-|AsyncAPI 2.0
+|OAS 2.0 spec
 |Yes
 |Yes
 
-|AsyncAPI 2.6
+|OAS 3.0 spec
 |Yes
 |Yes
+
+|RAML 0.8 spec
+|Yes
+|Yes
+
+|RAML 1.0 spec
+|Yes
+|Yes
+
 |===
 
 // end::api-spec-implementation-support[]
 //
-// Implementation is about scaffolding into a Mule app supported in ACB and Studio (not DC) via APIkit features
+// Frag implementation is about scaffolding into a Mule app supported in ACB and Studio (not DC) via APIkit features
 // tag::api-frag-implementation-support[]
 
 [%header%autowidth.spread]
 |===
 |Fragment Implementation Language |Anypoint Code Builder |Studio
 
-|RAML 0.8  
+|AsyncAPI 2.0 fragment
+|
+|
+
+|AsyncAPI 2.6 fragment
+|
+|
+
+|GraphQL schema
+|
+|
+
+|OAS 2.0 fragment
+|
+|
+
+|OAS 3.0 fragment
+|
+|
+
+|RAML 0.8 fragment 
 |Yes
 |
 
-|RAML 1.0  
+|RAML 1.0 fragment
 |Yes
 |
 
-
-|OAS 2.0
-|
-|
-
-|OAS 3.0
-|
-|
-
-|AsyncAPI 2.0
-|
-|
-
-|AsyncAPI 2.6
-|
-|
 |===
 
-// end::api-spec-implementation-support[]
+// end::api-frag-implementation-support[]
