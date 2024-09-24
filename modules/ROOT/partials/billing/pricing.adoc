@@ -161,7 +161,7 @@ The following features are available for Anypoint Platform customers who have us
 | Feature | Anypoint Integration Starter Package | Anypoint Platform Advanced Package 
 
 //NOT UPDATED (FUTURE CHANGE TBD)
-|Dedicated infrastructure for data processing and storage
+|Dedicated database for storage
 |No
 |Yes
 
