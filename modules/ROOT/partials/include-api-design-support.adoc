@@ -49,7 +49,7 @@
 |Avro Schema
 |No
 |Yes
-|
+|No
 
 |JSON Schema
 |Yes
