@@ -1,0 +1,110 @@
+
+// tag::api-design-spec-support[]
+
+[%header%autowidth.spread]
+|===
+|Spec Design Language |Design Center |Anypoint Code Builder |Studio
+
+|AsyncAPI 2.6
+|Yes
+|Yes
+|No
+
+|AsyncAPI 2.0
+|Yes
+|No
+|No
+
+|OAS 3.0
+|Yes
+|Yes
+|Yes
+
+|OAS 2.0
+|Yes
+|Yes
+|Yes
+
+|RAML 1.0  
+|Yes
+|Yes
+|Yes
+
+|RAML 0.8  
+|Yes
+|Yes
+|Yes
+
+|===
+
+// end::api-design-spec-support[]
+//
+//
+// tag::api-design-fragment-support[]
+
+[%header%autowidth.spread]
+|===
+|API Fragment Design |Design Center |Anypoint Code Builder |Studio
+
+|Avro Schema
+|No
+|Yes
+|
+
+|JSON Schema
+|Yes
+|Yes
+|
+
+|OAS 3.0
+|Yes
+|Yes
+|
+
+|RAML 1.0
+|Yes
+|Yes
+|
+|===
+
+// end::api-design-fragment-support[]
+//
+// tag::api-spec-implementation-support[]
+
+[%header%autowidth.spread]
+|===
+|Spec Implementation Language |Design Center |Anypoint Code Builder |Studio
+
+|RAML 0.8  
+|
+|Yes
+|
+
+|RAML 1.0  
+|
+|Yes
+|
+
+
+|OAS 2.0
+|
+|Yes
+|
+
+|OAS 3.0
+|
+|Yes
+|
+
+|AsyncAPI 2.0
+|
+|Yes
+|
+
+|AsyncAPI 2.6
+|
+|Yes
+|
+|===
+
+// end::api-spec-implementation-support[]
