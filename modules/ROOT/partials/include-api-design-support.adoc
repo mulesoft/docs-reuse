@@ -78,7 +78,7 @@
 |RAML 0.8  
 |
 |Yes
-|
+|Yes
 
 |RAML 1.0  
 |
