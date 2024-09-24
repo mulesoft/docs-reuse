@@ -54,7 +54,7 @@
 |JSON Schema
 |Yes
 |Yes
-|
+|No
 
 |OAS 3.0
 |Yes
