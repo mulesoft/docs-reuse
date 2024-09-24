@@ -59,12 +59,12 @@
 |OAS 3.0
 |Yes
 |Yes
-|
+|Yes
 
 |RAML 1.0
 |Yes
 |Yes
-|
+|Yes
 |===
 
 // end::api-design-fragment-support[]
@@ -83,7 +83,7 @@
 |RAML 1.0  
 |
 |Yes
-|
+|Yes
 
 
 |OAS 2.0
@@ -94,7 +94,7 @@
 |OAS 3.0
 |
 |Yes
-|
+|Yes
 
 |AsyncAPI 2.0
 |
@@ -104,7 +104,7 @@
 |AsyncAPI 2.6
 |
 |Yes
-|
+|Yes
 |===
 
 // end::api-spec-implementation-support[]
