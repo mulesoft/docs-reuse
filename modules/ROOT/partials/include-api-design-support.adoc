@@ -49,8 +49,10 @@
 |AsyncAPI 2.0 fragment
 |
 |
+|
 
 |AsyncAPI 2.6 fragment
+|
 |
 |
 
