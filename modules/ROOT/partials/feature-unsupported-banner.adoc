@@ -2,3 +2,10 @@
 [.notice-banner]
 This feature is currently not supported.
 //end::unsupported-feature[]
+
+// tag::deprecateTLS[]
+[.notice-banner]
+* This product no longer supports the deprecated Transport Layer Security (TLS) versions 1.1 and 1.0.
++
+Upgrade your TLS version to 1.2 or later.
+// end::deprecateTLS[]
