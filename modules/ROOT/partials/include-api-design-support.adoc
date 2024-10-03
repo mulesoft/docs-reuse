@@ -89,7 +89,7 @@
 
 [%header%autowidth.spread]
 |===
-|Spec Implementation Language |Anypoint Code Builder |Studio
+|Implementation Support |Anypoint Code Builder |Studio
 
 |AsyncAPI 2.0 spec
 |Yes
