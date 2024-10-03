@@ -89,7 +89,7 @@
 
 [%header%autowidth.spread]
 |===
-|Implementation Support |Anypoint Code Builder |Studio
+|Spec Implementation Support |Anypoint Code Builder |Studio
 
 |AsyncAPI 2.0 spec
 |Yes
@@ -98,11 +98,6 @@
 |AsyncAPI 2.6 spec
 |Yes
 |Yes
-
-|Avro schema
-|
-|
-|
 
 |OAS 2.0 spec
 |Yes
@@ -129,7 +124,7 @@
 
 [%header%autowidth.spread]
 |===
-|Fragment Implementation Language |Anypoint Code Builder |Studio
+|Fragment Implementation Support |Anypoint Code Builder |Studio
 
 |AsyncAPI 2.0 fragment
 |
