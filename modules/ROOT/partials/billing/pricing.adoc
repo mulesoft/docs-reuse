@@ -158,7 +158,7 @@ The metrics available in API Manager are considered *Key Metrics* and are descri
 The following features are available for Anypoint Platform customers who have usage-based plans:
 
 |===
-| Feature | Anypoint Integration Starter Package | Anypoint Platform Advanced Package 
+| Feature | Anypoint Integration Starter Package | Anypoint Integration Advanced Package 
 
 //NOT UPDATED (FUTURE CHANGE TBD)
 |Dedicated database for storage
