@@ -72,7 +72,7 @@
 |Yes
 
 |RAML 0.8 fragment
-|Yes
+|No
 |
 |
 
