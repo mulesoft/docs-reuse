@@ -160,10 +160,6 @@ The following features are available for Anypoint Platform customers who have us
 |===
 | Feature | Anypoint Integration Starter Package | Anypoint Integration Advanced Package 
 
-//NOT UPDATED (FUTURE CHANGE TBD)
-|Dedicated database for storage
-|No
-|Yes
 
 //UPDATED description
 // |Telemetry Exporter for audit logs and traces
