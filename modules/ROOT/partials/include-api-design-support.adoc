@@ -48,7 +48,7 @@
 
 |AsyncAPI 2.0 fragment
 |Yes
-|
+|No
 |
 
 |AsyncAPI 2.6 fragment
