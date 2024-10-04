@@ -47,12 +47,12 @@
 |API Fragment Design |Design Center |Anypoint Code Builder |Studio
 
 |AsyncAPI 2.0 fragment
-|
+|Yes
 |
 |
 
 |AsyncAPI 2.6 fragment
-|
+|Yes
 |
 |
 
@@ -72,7 +72,7 @@
 |Yes
 
 |RAML 0.8 fragment
-|
+|Yes
 |
 |
 
