@@ -53,7 +53,7 @@
 
 |AsyncAPI 2.6 fragment
 |Yes
-|
+|No
 |
 
 |Avro schema
@@ -135,7 +135,7 @@
 |
 
 |GraphQL schema
-|
+|Yes
 |
 
 |OAS 2.0 fragment
