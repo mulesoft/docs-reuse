@@ -1,0 +1,4 @@
+// tag::assignPermissionsLink[]
+For information about assigning permissions, see 
+xref:access-management::users.adoc#grant-user-permissions[Grant Permissions to Users].
+// end::assignPermissionsLink[]
