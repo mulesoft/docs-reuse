@@ -157,6 +157,7 @@ The metrics available in API Manager are considered *Key Metrics* and are descri
 // tag::monitoringTable[]
 The following features are available for Anypoint Platform customers who have usage-based plans:
 
+[%header,cols="3*a"]
 |===
 | Feature | Anypoint Integration Starter Package | Anypoint Integration Advanced Package 
 
@@ -183,11 +184,12 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 
 //NOT UPDATED
+[[built-in-app]]
 3+| *Built-in Application Dashboards*
-|Many out-of-the-box charts covering metrics in the following categories: 
+|Out-of-the-box charts with metrics on individual Mule apps: 
 
 * US and EU regions: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
-* CA and JA regions: Overview, Request, Errors, JVM
+* CA and JA regions (Anypoint Insights): Overview, Request, Errors, JVM
 
 |Yes
 |Yes
@@ -215,12 +217,13 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 
 //NOT UPDATED
+[[built-in-api]]
 3+| *Built-in API Dashboards*
 
-|Out-of-the-box charts covering these metrics: 
+|Out-of-the-box charts with metrics on individual APIs: 
 
-* US and EU regions: Overview, Requests, Failures, Performance, and Client Application 
-* CA and JA regions: Overview, Request, Errors, JVM
+* US and EU regions (Built-in): Overview, Requests, Failures, Performance, and Client Application 
+* CA and JA regions (Anypoint Insights): Overview, Request, Errors, JVM
 
 |Yes
 |Yes
@@ -229,13 +232,7 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-| *Aggregated Metrics Across Deployments*
-|Out-of-the-box charts in Anypoint Insights covering these metrics:
-
-* US and EU regions: Not available at this time
-* CA and JA regions: Performance metrics and trends
-
-6+| *Log Management*
+3+| *Log Management*
 
 //NEW: TODO_TODO_TODO: what does "distributed" mean here?
 |Distributed log management 
@@ -262,7 +259,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 
 //NOT UPDATED
-5+| *Additional Anypoint Monitoring features*
+3+| *Additional Anypoint Monitoring features*
 
 //NOT UPDATED
 |Anypoint Monitoring Archive API
@@ -279,14 +276,20 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-
-//TBD_TBD_TBD: entire category: what does "enhanced support" mean?
-3+| *Enhanced Support*
-
 //TBD_TBD_TBD: is support correct?
 |Enhanced Support
 |No
 |Yes
+
+3+| *Dashboards with Aggregated Metrics Across Deployments (Anypoint Insights)*
+|Out-of-the-box charts with aggregated metrics:
+
+* US and EU regions: Not available at this time
+* CA and JA regions (Anypoint Insights): Performance metrics and trends for CloudHub 2.0 and Runtime Fabric deployments
+
+See also, built-in dashboards for individual APIs and apps.
+| Yes
+| No
 
 |===
 
