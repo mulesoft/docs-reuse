@@ -184,7 +184,10 @@ The following features are available for Anypoint Platform customers who have us
 
 //NOT UPDATED
 3+| *Built-in Application Dashboards*
-|More than 80 out-of-the-box charts covering metrics in the following categories: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
+|Many out-of-the-box charts covering metrics in the following categories: 
+
+* US and EU regions: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
+* CA and JA regions: Overview, Request, Errors, JVM
 
 |Yes
 |Yes
@@ -214,13 +217,23 @@ The following features are available for Anypoint Platform customers who have us
 //NOT UPDATED
 3+| *Built-in API Dashboards*
 
-|16 out-of-the-box charts covering metrics in the following categories: Overview, Requests, Failures, Performance, and Client Application 
+|Out-of-the-box charts covering these metrics: 
+
+* US and EU regions: Overview, Requests, Failures, Performance, and Client Application 
+* CA and JA regions: Overview, Request, Errors, JVM
+
 |Yes
 |Yes
 
 |xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
 |No
 |Yes
+
+| *Aggregated Metrics Across Deployments*
+|Out-of-the-box charts in Anypoint Insights covering these metrics:
+
+* US and EU regions: Not available at this time
+* CA and JA regions: Performance metrics and trends
 
 6+| *Log Management*
 
