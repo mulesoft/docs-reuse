@@ -222,7 +222,7 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-6+| *Log Management*
+3+| *Log Management*
 
 //NEW: TODO_TODO_TODO: what does "distributed" mean here?
 |Distributed log management 
@@ -249,7 +249,7 @@ The following features are available for Anypoint Platform customers who have us
 |Yes
 
 //NOT UPDATED
-5+| *Additional Anypoint Monitoring features*
+3+| *Additional Anypoint Monitoring features*
 
 //NOT UPDATED
 |Anypoint Monitoring Archive API
