@@ -190,7 +190,7 @@ The following features are available for Anypoint Platform customers who have us
 
 * Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
-For https://ca1.platform.mulesoft.com/monitoring/[JP (Japan)] and https://ca1.platform.mulesoft.com/monitoring/[CA (Canada)] Anypoint Platform regions, use the *Anypoint Insights* starter package.
+For https://ca1.platform.mulesoft.com/monitoring/[JP (Japan)] and https://ca1.platform.mulesoft.com/monitoring/[CA (Canada)] regions, use the *Anypoint Insights* starter package.
 |Yes
 |Yes
 
@@ -224,7 +224,7 @@ For https://ca1.platform.mulesoft.com/monitoring/[JP (Japan)] and https://ca1.pl
 
 * Overview, Requests, Failures, Performance, and Client Application 
 
-For https://ca1.platform.mulesoft.com/monitoring/[JP (Japan)] and https://ca1.platform.mulesoft.com/monitoring/[CA (Canada)] Anypoint Platform regions, use the *Anypoint Insights* starter package.
+For https://ca1.platform.mulesoft.com/monitoring/[JP (Japan)] and https://ca1.platform.mulesoft.com/monitoring/[CA (Canada)] regions, use the *Anypoint Insights* starter package.
 
 |Yes
 |Yes
