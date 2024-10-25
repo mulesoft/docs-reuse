@@ -188,8 +188,9 @@ The following features are available for Anypoint Platform customers who have us
 3+| *Built-in Application Dashboards*
 |Out-of-the-box charts with metrics on individual Mule apps: 
 
-* US and EU regions: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
-* Canada and Japan Hyperforce regions (Anypoint Insights): Overview, Request, Errors, JVM
+* Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
+
+Available in US and EU regions only.
 
 |Yes
 |Yes
@@ -222,8 +223,9 @@ The following features are available for Anypoint Platform customers who have us
 
 |Out-of-the-box charts with metrics on individual APIs: 
 
-* US and EU regions (Built-in): Overview, Requests, Failures, Performance, and Client Application 
-* Canada and Japan Hyperforce regions (Anypoint Insights): Overview, Request, Errors, JVM
+* Overview, Requests, Failures, Performance, and Client Application 
+
+Available in US and EU regions only.
 
 |Yes
 |Yes
@@ -281,13 +283,14 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-3+| *Dashboards with Aggregated Metrics Across Deployments (Anypoint Insights)*
-|Out-of-the-box charts with aggregated metrics:
+3+| *Anypoint Insights Dashboards*
+|Out-of-the-box charts for your deployments (entities):
 
-* US and EU regions: Not available at this time
-* Canada and Japan Hyperforce regions (Anypoint Insights): Performance metrics and trends for CloudHub 2.0 and Runtime Fabric deployments
+* Filterable charts across all your entities: Overview, Request, Errors, JVM
+* Charts for individual entities: Overview, Request, Errors, JVM
 
-See also, built-in dashboards for individual APIs and apps.
+Anypoint Insights is not available in the US and EU regions at this time. 
+
 | Yes
 | No
 
