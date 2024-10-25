@@ -190,8 +190,7 @@ The following features are available for Anypoint Platform customers who have us
 
 * Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
-Available in US and EU regions only.
-
+For https://ca1.platform.mulesoft.com/monitoring/[JP (Japan)] and https://ca1.platform.mulesoft.com/monitoring/[CA (Canada)] Anypoint Platform regions, use the *Anypoint Insights* starter package.
 |Yes
 |Yes
 
@@ -225,7 +224,7 @@ Available in US and EU regions only.
 
 * Overview, Requests, Failures, Performance, and Client Application 
 
-Available in US and EU regions only.
+For https://ca1.platform.mulesoft.com/monitoring/[JP (Japan)] and https://ca1.platform.mulesoft.com/monitoring/[CA (Canada)] Anypoint Platform regions, use the *Anypoint Insights* starter package.
 
 |Yes
 |Yes
@@ -282,17 +281,6 @@ Available in US and EU regions only.
 |Enhanced Support
 |No
 |Yes
-
-3+| *Anypoint Insights Dashboards*
-|Out-of-the-box charts for your deployments (entities):
-
-* Charts with metrics across all your entities: Performance and Trends 
-* Charts with metrics for individual entities: Overview, Request, Errors, JVM
-
-Anypoint Insights is not available in the US and EU regions at this time. 
-
-| Yes
-| No
 
 |===
 
