@@ -286,8 +286,8 @@ Available in US and EU regions only.
 3+| *Anypoint Insights Dashboards*
 |Out-of-the-box charts for your deployments (entities):
 
-* Filterable charts across all your entities: Overview, Request, Errors, JVM
-* Charts for individual entities: Overview, Request, Errors, JVM
+* Charts with metrics across all your entities: Performance and Trends 
+* Charts with metrics for individual entities: Overview, Request, Errors, JVM
 
 Anypoint Insights is not available in the US and EU regions at this time. 
 
