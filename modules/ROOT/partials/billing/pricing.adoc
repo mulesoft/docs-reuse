@@ -241,7 +241,10 @@ For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[C
 |Yes
 
 //UPDATED
-|xref:monitoring::log-search-query-syntax.adoc[Log search]
+|xref:monitoring::log-search-query-syntax.adoc[Log search in Runtime Manager]
+
+* For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada (CA)] and https://jp1.platform.mulesoft.com/monitoring/[Japan (JP)], you can navigate to Log Search in Runtime Manager. Only starter package Log Search is available. 
+
 |Yes (single application only)
 |Yes (cross-application)
 
