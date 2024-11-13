@@ -159,38 +159,33 @@ The following features are available for Anypoint Platform customers who have us
 
 [%header,cols="3*a"]
 |===
-| Feature | Anypoint Integration Starter Package | Anypoint Integration Advanced Package 
+| Feature | Anypoint Integration Starter package | Anypoint Integration Advanced Package 
 
 
-//UPDATED description
-// |Telemetry Exporter for audit logs and traces
 |Realtime xref:monitoring::telemetry-exporter.adoc[export of telemetry data] (audit logs and traces).
 |No
 |Yes
 
-//NEW
 |xref:monitoring::anypoint-custom-metrics-connector.adoc[Custom metrics]
 |No
 |Yes
 
-//UPDATED (consolidated)
 |xref:monitoring::alerts.adoc[Alerts]
 |No
 |Yes
 
-//UPDATED (consolidated)
 | xref:dashboard-custom-config.adoc[Custom dashboards]
 |No
 |Yes
 
-//NOT UPDATED
 [[built-in-app]]
 3+| *Built-in Application Dashboards*
 |Out-of-the-box charts with metrics on individual Mule apps: 
 
 * Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
-For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada (CA)] and https://jp1.platform.mulesoft.com/monitoring/[Japan (JP)], use the starter package feature, *Anypoint Insights*.
+//TEMP INFO: Hyperforce 12/24
+* For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada] and https://jp1.platform.mulesoft.com/monitoring/[Japan], use the Starter package feature, xref:anypoint-insights.adoc[Anypoint Insights].
 |Yes
 |Yes
 
@@ -206,17 +201,14 @@ For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[C
 |No
 |Yes
 
-//NOT UPDATED
 |<<visualizer-widget, Anypoint Visualizer application network integration>>
 |No
 |Yes
 
-//NOT UPDATED
 |xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
 |No
 |Yes
 
-//NOT UPDATED
 [[built-in-api]]
 3+| *Built-in API Dashboards*
 
@@ -224,7 +216,8 @@ For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[C
 
 * Overview, Requests, Failures, Performance, and Client Application 
 
-For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada (CA)] and https://jp1.platform.mulesoft.com/monitoring/[Japan (JP)], use the starter package feature, *Anypoint Insights*.
+//TEMP INFO: Hyperforce 12/24
+* For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada] and https://jp1.platform.mulesoft.com/monitoring/[Japan], use the Starter package feature, xref:anypoint-insights.adoc[Anypoint Insights].
 
 |Yes
 |Yes
@@ -235,15 +228,14 @@ For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[C
 
 3+| *Log Management*
 
-//NEW: TODO_TODO_TODO: what does "distributed" mean here?
 |Distributed log management 
 |No
 |Yes
 
-//UPDATED
-|xref:monitoring::log-search-query-syntax.adoc[Log search in Runtime Manager]
+|xref:monitoring::log-search-query-syntax.adoc[Log search]
 
-* For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada (CA)] and https://jp1.platform.mulesoft.com/monitoring/[Japan (JP)], you can navigate to Log Search in Runtime Manager. Only starter package Log Search is available. 
+//TEMP INFO: Hyperforce 12/24
+* To use this feature from Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring[Canada] and https://jp1.platform.mulesoft.com/monitoring[Japan], navigate to Runtime Manager, and open *Logs*.
 
 |Yes (single application only)
 |Yes (cross-application)
@@ -252,35 +244,28 @@ For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[C
 |No
 |Yes
 
-//UPDATED description
 |Raw log data downloads
 |No
 |Yes
 
-//NEW: Log tailing: recent data from a log file
 |Log tailing
 |Yes
 |Yes
 
-//NOT UPDATED
 3+| *Additional Anypoint Monitoring features*
 
-//NOT UPDATED
 |Anypoint Monitoring Archive API
 |No
 |Yes
 
-//NOT UPDATED
 |xref:api-functional-monitoring[API Functional Monitoring] +
 |Yes
 |Yes
 
-//NOT UPDATED
 |xref:reports.adoc[Reports]
 |No
 |Yes
 
-//TBD_TBD_TBD: is support correct?
 |Enhanced Support
 |No
 |Yes
