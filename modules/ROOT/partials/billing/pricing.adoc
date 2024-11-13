@@ -185,7 +185,7 @@ The following features are available for Anypoint Platform customers who have us
 * Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
 //TEMP INFO: Hyperforce 12/24 (W-17225983)
-* For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada] and https://jp1.platform.mulesoft.com/monitoring/[Japan], use the Starter package feature, xref:anypoint-insights.adoc[Anypoint Insights].
+* For Anypoint Platform in https://ca1.platform.mulesoft.com/monitoring/[Canada Cloud] and https://jp1.platform.mulesoft.com/monitoring/[Japan Cloud], use the Starter package feature, xref:anypoint-insights.adoc[Anypoint Insights].
 |Yes
 |Yes
 
@@ -217,7 +217,7 @@ The following features are available for Anypoint Platform customers who have us
 * Overview, Requests, Failures, Performance, and Client Application 
 
 //TEMP INFO: Hyperforce 12/24 (W-17225983)
-* For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada] and https://jp1.platform.mulesoft.com/monitoring/[Japan], use the Starter package feature, xref:anypoint-insights.adoc[Anypoint Insights].
+* For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada Cloud] and https://jp1.platform.mulesoft.com/monitoring/[Japan Cloud], use the Starter package feature, xref:anypoint-insights.adoc[Anypoint Insights].
 
 |Yes
 |Yes
@@ -235,7 +235,7 @@ The following features are available for Anypoint Platform customers who have us
 |xref:monitoring::log-search-query-syntax.adoc[Log search]
 
 //TEMP INFO: Hyperforce 12/24 (W-17225983)
-* To use this feature from Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring[Canada] and https://jp1.platform.mulesoft.com/monitoring[Japan], navigate to Runtime Manager, and open *Logs*.
+* To use this feature from Anypoint Platform in https://ca1.platform.mulesoft.com/monitoring[Canada Cloud] and https://jp1.platform.mulesoft.com/monitoring[Japan Cloud], navigate to Runtime Manager, and open *Logs*.
 
 |Yes (single application only)
 |Yes (cross-application)
