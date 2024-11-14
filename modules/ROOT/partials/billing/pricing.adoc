@@ -232,10 +232,10 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-|xref:monitoring::log-search-query-syntax.adoc[Log search]
+|xref:monitoring::log-search-query-syntax.adoc[Log Search]
 
 //TEMP INFO: Hyperforce 12/24 (W-17225983)
-* To use this feature, you can navigate to Runtime Manager, and open *Logs*. 
+* To use this feature, you can navigate to Runtime Manager, and open *Logs*. The Advanced tier provides a link to Log Search from Anypoint Monitoring.
 
 |Yes (single application only)
 |Yes (cross-application)
