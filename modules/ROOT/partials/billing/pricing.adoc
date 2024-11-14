@@ -155,7 +155,7 @@ The metrics available in API Manager are considered *Key Metrics* and are descri
 // end::apimKeyMetrics[]
 
 // tag::monitoringTable[]
-The following features are available for Anypoint Platform customers who have usage-based plans:
+These features are available for Anypoint Platform customers who have usage-based plans:
 
 [%header,cols="3*a"]
 |===
