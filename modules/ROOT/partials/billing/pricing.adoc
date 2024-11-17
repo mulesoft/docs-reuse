@@ -258,7 +258,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-|xref:api-functional-monitoring::index.adoc[API Functional Monitoring] +
+|xref:functional-monitoring::index.adoc[API Functional Monitoring] +
 |Yes
 |Yes
 
