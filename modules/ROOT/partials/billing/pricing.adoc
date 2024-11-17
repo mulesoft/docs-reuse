@@ -65,7 +65,7 @@ If you don't see the *Flows* tab, verify that you are using Unified Agent and th
 // end::flowsTabAvailability[]
 
 // tag::customMetricsTabAvailability[]
-The *Custom metrics* tab appears only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and the app you selected is running on a supported version of Mule. See xref:anypoint-custom-metrics-connector.adoc[Anypoint Custom Metrics Connector].
+The *Custom metrics* tab appears only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and the app you selected is running on a supported version of Mule. See xref:monitoring::anypoint-custom-metrics-connector.adoc[Anypoint Custom Metrics Connector].
 // end::customMetricsTabAvailability[]
 
 // tag::appNetworkTabAvailability[]
@@ -174,7 +174,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-| xref:dashboard-custom-config.adoc[Custom dashboards]
+| xref:monitoring::dashboard-custom-config.adoc[Custom dashboards]
 |No
 |Yes
 
@@ -185,7 +185,7 @@ These features are available for Anypoint Platform customers who have usage-base
 * Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
 
 //TEMP INFO: Hyperforce 12/24 (W-17225983)
-* For Anypoint Platform in https://ca1.platform.mulesoft.com/monitoring/[Canada Cloud] and https://jp1.platform.mulesoft.com/monitoring/[Japan Cloud], use the Starter package feature, xref:anypoint-insights.adoc[Anypoint Insights].
+* For Anypoint Platform regions in Canada Cloud and Japan Cloud, use the Starter package feature, xref:monitoring::anypoint-insights.adoc[Anypoint Insights].
 |Yes
 |Yes
 
@@ -217,7 +217,7 @@ These features are available for Anypoint Platform customers who have usage-base
 * Overview, Requests, Failures, Performance, and Client Application 
 
 //TEMP INFO: Hyperforce 12/24 (W-17225983)
-* For Anypoint Platform regions in https://ca1.platform.mulesoft.com/monitoring/[Canada Cloud] and https://jp1.platform.mulesoft.com/monitoring/[Japan Cloud], use the Starter package feature, xref:anypoint-insights.adoc[Anypoint Insights].
+* For Anypoint Platform regions in Canada Cloud and Japan Cloud, use the Starter package feature, xref:monitoring::anypoint-insights.adoc[Anypoint Insights].
 
 |Yes
 |Yes
@@ -258,11 +258,11 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-|xref:api-functional-monitoring[API Functional Monitoring] +
+|xref:api-functional-monitoring::index.adoc[API Functional Monitoring] +
 |Yes
 |Yes
 
-|xref:reports.adoc[Reports]
+|xref:monitoring::reports.adoc[Reports]
 |No
 |Yes
 
