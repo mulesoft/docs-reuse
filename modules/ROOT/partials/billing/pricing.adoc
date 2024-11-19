@@ -7,7 +7,7 @@ This feature is available only if your organization has the Anypoint Integration
 // end::featureAdvReqMonitoring[]
 
 // tag::featureAdvSubReqMonitoring[]
-*Feature availability:* xref:monitoring::index.adoc#billing[Advanced and Subscription-Based tiers]
+*Feature availability:* xref:monitoring::index.adoc#billing[Advanced and subscription-Based tiers]
 // end::featureAdvSubReqMonitoring[]
 
 // tag::featureUBPReq[]
@@ -186,7 +186,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |Yes
 
 [[built-in-app]]
-3+| *Built-in Application Dashboards*
+3+| xref:app-dashboards.adoc[*Built-in Application Dashboards*]
 |Out-of-the-box charts with metrics on individual Mule apps: 
 
 * Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
@@ -196,15 +196,15 @@ These features are available for Anypoint Platform customers who have usage-base
 |Yes
 |Yes
 
-|Advanced metrics for Inbound and Outbound charts
+|Advanced metrics for xref:app-dashboards.adoc#built-in-charts-app[Inbound and Outbound charts]
 |No
 |Yes
 
-|Flows charts
+|xref:app-dashboards.adoc#built-in-charts-app[Flows charts]
 |No
 |Yes
 
-|Connectors charts
+|xref:app-dashboards.adoc#built-in-charts-app[Connectors charts]
 |No
 |Yes
 
@@ -217,7 +217,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |Yes
 
 [[built-in-api]]
-3+| *Built-in API Dashboards*
+3+| api-analytics-dashboard.adoc[*Built-in API Dashboards*]
 
 |Out-of-the-box charts with metrics on individual APIs: 
 
@@ -251,7 +251,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-|Raw log data downloads
+|xref:raw-data.adoc[Raw log data downloads]
 |No
 |Yes
 
@@ -261,7 +261,7 @@ These features are available for Anypoint Platform customers who have usage-base
 
 3+| *Additional Anypoint Monitoring features*
 
-|Anypoint Monitoring Archive API
+|xref:api-analytics-dashboard.adoc#anypoint-monitoring-archive-api[Anypoint Monitoring Archive API]
 |No
 |Yes
 
@@ -280,7 +280,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |===
 
 [[visualizer-widget]]
-Anypoint Visualizer application network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
+NOTE: Anypoint Visualizer application network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
 
 // end::monitoringTable[]
 
