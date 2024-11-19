@@ -7,7 +7,7 @@ This feature is available only if your organization has the Anypoint Integration
 // end::featureAdvReqMonitoring[]
 
 // tag::featureAdvSubReqMonitoring[]
-*Feature availability:* xref:monitoring::index.adoc#billing[Advanced and subscription-Based tiers]
+*Feature availability:* xref:monitoring::index.adoc#billing[Advanced and Subscription-based tiers]
 // end::featureAdvSubReqMonitoring[]
 
 // tag::featureUBPReq[]
