@@ -217,7 +217,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |Yes
 
 [[built-in-api]]
-3+| api-analytics-dashboard.adoc[*Built-in API Dashboards*]
+3+| xref:api-analytics-dashboard.adoc[*Built-in API Dashboards*]
 
 |Out-of-the-box charts with metrics on individual APIs: 
 
