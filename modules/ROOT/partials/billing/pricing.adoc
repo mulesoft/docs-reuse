@@ -3,19 +3,27 @@ This feature is available only if your organization has the Anypoint Integration
 // end::featureAdvReq[]
 
 // tag::featureAdvReqMonitoring[]
-*Feature availability:* xref:monitoring::index.adoc#billing[Advanced usage and Titanium subscription tiers]
+|===
+|*Feature available in these tiers*: xref:monitoring::index.adoc#billing[Advanced usage plan and Titanium subscription package]
+|===
 // end::featureAdvReqMonitoring[]
 
 // tag::featureAdvSubReqMonitoring[]
-*Feature availability:* xref:monitoring::index.adoc#billing[Advanced usage and Subscription-based tiers]
+|===
+*Feature available in these tiers:* xref:monitoring::index.adoc#billing[Advanced usage plan and Subscription-based packages]
+|===
 // end::featureAdvSubReqMonitoring[]
 
 // tag::featureUsageTitReqMonitoring[]
-*Feature availability:* xref:monitoring::index.adoc#billing[Usage-based and Titanium subscription tiers]
+|===
+*Feature available in these tiers:* xref:monitoring::index.adoc#billing[Usage-based plans and Titanium subscription package]
+|===
 // end::featureUsageTitReqMonitoring[]
 
 // tag::featureAvailabilityMonitoring[]
+|===
 *Feature availability:* xref:monitoring::index.adoc#billing[Varies by usage or subscription tier]
+|===
 // end::featureAvailabilityMonitoring[]
 
 // tag::featureUBPReq[]
@@ -174,7 +182,7 @@ These features are available for Anypoint Platform customers who have usage-base
 
 [%header,cols="3*a"]
 |===
-| Feature | Anypoint Integration Starter package | Anypoint Integration Advanced Package 
+| Feature | Anypoint Integration Starter Package | Anypoint Integration Advanced Package 
 
 
 |Realtime xref:monitoring::telemetry-exporter.adoc[export of telemetry data] (audit logs and traces).
