@@ -14,9 +14,9 @@ This feature is available only if your organization has the Anypoint Integration
 *Feature availability:* xref:monitoring::index.adoc#billing[Usage-based and Titanium subscription tiers]
 // end::featureUsageTitReqMonitoring[]
 
-// tag::featureUsageReqMonitoring[]
-*Feature availability:* xref:monitoring::index.adoc#billing[Usage-based tiers only]
-// end::featureUsageReqMonitoring[]
+// tag::featureAvailabilityMonitoring[]
+*Feature availability:* xref:monitoring::index.adoc#billing[Varies by usage or subscription tier]
+// end::featureAvailabilityMonitoring[]
 
 // tag::featureUBPReq[]
 This feature is available only if your organization has opted into a usage-based pricing model.
