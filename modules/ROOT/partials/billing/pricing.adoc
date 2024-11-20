@@ -4,25 +4,25 @@ This feature is available only if your organization has the Anypoint Integration
 
 // tag::featureAdvReqMonitoring[]
 |===
-|*Feature available in*: xref:monitoring::index.adoc#billing[Advanced usage and Titanium subscription tiers]
+|*Feature available in xref:monitoring::index.adoc#billing[Advanced usage and Titanium subscription tiers]*
 |===
 // end::featureAdvReqMonitoring[]
 
 // tag::featureAdvSubReqMonitoring[]
 |===
-*Feature available in:* xref:monitoring::index.adoc#billing[Advanced usage and Subscription-based tiers]
+|*Feature available in xref:monitoring::index.adoc#billing[Advanced usage and Subscription-based tiers]*
 |===
 // end::featureAdvSubReqMonitoring[]
 
 // tag::featureUsageTitReqMonitoring[]
 |===
-*Feature available in:* xref:monitoring::index.adoc#billing[Usage-based and Titanium subscription tiers]
+|*Feature available in xref:monitoring::index.adoc#billing[Usage-based and Titanium subscription tiers]*
 |===
 // end::featureUsageTitReqMonitoring[]
 
 // tag::featureAvailabilityMonitoring[]
 |===
-*Feature available in:* xref:monitoring::index.adoc#billing[Varies by usage or subscription tier]
+|*Feature availability varies by xref:monitoring::index.adoc#billing[usage or subscription tier]*
 |===
 // end::featureAvailabilityMonitoring[]
 
