@@ -216,11 +216,11 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-|xref:app-dashboards.adoc#built-in-charts-app[Flows charts]
+|xref:app-dashboards.adoc#built-in-charts-app[Flow charts]
 |No
 |Yes
 
-|xref:app-dashboards.adoc#built-in-charts-app[Connectors charts]
+|xref:app-dashboards.adoc#built-in-charts-app[Connector charts]
 |No
 |Yes
 
