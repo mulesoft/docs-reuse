@@ -1,4 +1,7 @@
-// Sample banner definition
+// The EOL banners are currently getting pulled from the location below:
+// https://github.com/mulesoft/docs-site-ui/commits/main/src/partials/notice-banner
+//
+// This is a sample definition for custom EOL banners
 // Feature Scheduled for EOL - BANNER
 // tag::eolFeatureScheduled[]
 // [.notice-banner]

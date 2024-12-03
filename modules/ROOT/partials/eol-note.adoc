@@ -1,6 +1,3 @@
-// Important: The EOL banners are currently getting pulled from the location below and not from this file:
-// https://github.com/mulesoft/docs-site-ui/commits/main/src/partials/notice-banner
-//
 // Product Scheduled for EOL - NOTE for RNs - multiple releases/file
 // include::reuse::partial$eol-note.adoc[tag=eolScheduled]
 // tag::eolScheduled[]
