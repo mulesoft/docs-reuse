@@ -2,7 +2,7 @@
 // Feature Scheduled for EOL - BANNER
 // tag::eolFeatureScheduled[]
 // [.notice-banner]
-// This feature is scheduled for https://help.mulesoft.com/s/article/MuleSoft-Product-Feature-Retirements[End of Life^].
+// This feature is scheduled for https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/versioning-back-support-policy.pdf[End of Life^].
 // end::eolFeatureScheduled[]
 
 
