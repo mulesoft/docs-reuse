@@ -1,7 +1,30 @@
-
 // tag::featureAdvReq[]
 This feature is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureAdvReq[]
+
+// tag::featureAdvReqMonitoring[]
+|===
+|*Feature available in xref:monitoring::index.adoc#billing[Advanced usage and Titanium subscription tiers]*
+|===
+// end::featureAdvReqMonitoring[]
+
+// tag::featureAdvSubReqMonitoring[]
+|===
+|*Feature available in xref:monitoring::index.adoc#billing[Advanced usage and Subscription-based tiers]*
+|===
+// end::featureAdvSubReqMonitoring[]
+
+// tag::featureUsageTitReqMonitoring[]
+|===
+|*Feature available in xref:monitoring::index.adoc#billing[Usage-based and Titanium subscription tiers]*
+|===
+// end::featureUsageTitReqMonitoring[]
+
+// tag::featureAvailabilityMonitoring[]
+|===
+|*Feature availability varies by xref:monitoring::index.adoc#billing[usage or subscription tier]*
+|===
+// end::featureAvailabilityMonitoring[]
 
 // tag::featureUBPReq[]
 This feature is available only if your organization has opted into a usage-based pricing model.
@@ -65,7 +88,7 @@ If you don't see the *Flows* tab, verify that you are using Unified Agent and th
 // end::flowsTabAvailability[]
 
 // tag::customMetricsTabAvailability[]
-The *Custom metrics* tab appears only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and the app you selected is running on a supported version of Mule. See xref:anypoint-custom-metrics-connector.adoc[Anypoint Custom Metrics Connector].
+The *Custom metrics* tab appears only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform and the app you selected is running on a supported version of Mule. See xref:monitoring::anypoint-custom-metrics-connector.adoc[Anypoint Custom Metrics Connector].
 // end::customMetricsTabAvailability[]
 
 // tag::appNetworkTabAvailability[]
@@ -155,66 +178,70 @@ The metrics available in API Manager are considered *Key Metrics* and are descri
 // end::apimKeyMetrics[]
 
 // tag::monitoringTable[]
-The following features are available for Anypoint Platform customers who have usage-based plans:
+These features are available for Anypoint Platform customers who have usage-based plans:
 
+[%header,cols="3*a"]
 |===
 | Feature | Anypoint Integration Starter Package | Anypoint Integration Advanced Package 
 
 
-//UPDATED description
-// |Telemetry Exporter for audit logs and traces
 |Realtime xref:monitoring::telemetry-exporter.adoc[export of telemetry data] (audit logs and traces).
 |No
 |Yes
 
-//NEW
 |xref:monitoring::anypoint-custom-metrics-connector.adoc[Custom metrics]
 |No
 |Yes
 
-//UPDATED (consolidated)
 |xref:monitoring::alerts.adoc[Alerts]
 |No
 |Yes
 
-//UPDATED (consolidated)
-| xref:dashboard-custom-config.adoc[Custom dashboards]
+| xref:monitoring::dashboard-custom-config.adoc[Custom dashboards]
 |No
 |Yes
 
-//NOT UPDATED
-3+| *Built-in Application Dashboards*
-|More than 80 out-of-the-box charts covering metrics in the following categories: Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
+[[built-in-app]]
+3+| xref:app-dashboards.adoc[*Built-in Application Dashboards*]
+|Out-of-the-box charts with metrics on individual Mule apps: 
 
+* Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
+
+//TEMP INFO: Hyperforce 12/24 (W-17225983)
+* For Anypoint Platform regions in Canada Cloud and Japan Cloud, use the Starter package feature, xref:monitoring::anypoint-insights.adoc[Anypoint Insights].
 |Yes
 |Yes
 
-|Advanced metrics for Inbound and Outbound charts
+|Advanced metrics for xref:app-dashboards.adoc#built-in-charts-app[Inbound and Outbound charts]
 |No
 |Yes
 
-|Flows charts
+|xref:app-dashboards.adoc#built-in-charts-app[Flow charts]
 |No
 |Yes
 
-|Connectors charts
+|xref:app-dashboards.adoc#built-in-charts-app[Connector charts]
 |No
 |Yes
 
-//NOT UPDATED
 |<<visualizer-widget, Anypoint Visualizer application network integration>>
 |No
 |Yes
 
-//NOT UPDATED
 |xref:monitoring::performance-and-impact.adoc#data-retention-and-aggregation[Data retention] for more than 30 days
 |No
 |Yes
 
-//NOT UPDATED
-3+| *Built-in API Dashboards*
+[[built-in-api]]
+3+| xref:api-analytics-dashboard.adoc[*Built-in API Dashboards*]
 
-|16 out-of-the-box charts covering metrics in the following categories: Overview, Requests, Failures, Performance, and Client Application 
+|Out-of-the-box charts with metrics on individual APIs: 
+
+* Overview, Requests, Failures, Performance, and Client Application 
+
+//TEMP INFO: Hyperforce 12/24 (W-17225983)
+* For Anypoint Platform regions in Canada Cloud and Japan Cloud, use the Starter package feature, xref:monitoring::anypoint-insights.adoc[Anypoint Insights].
+
 |Yes
 |Yes
 
@@ -224,13 +251,11 @@ The following features are available for Anypoint Platform customers who have us
 
 3+| *Log Management*
 
-//NEW: TODO_TODO_TODO: what does "distributed" mean here?
 |Distributed log management 
 |No
 |Yes
 
-//UPDATED
-|xref:monitoring::log-search-query-syntax.adoc[Log search]
+|xref:monitoring::log-search-query-syntax.adoc[Log Search]
 |Yes (single application only)
 |Yes (cross-application)
 
@@ -238,39 +263,28 @@ The following features are available for Anypoint Platform customers who have us
 |No
 |Yes
 
-//UPDATED description
-|Raw log data downloads
+|xref:raw-data.adoc[Raw log data downloads]
 |No
 |Yes
 
-//NEW: Log tailing: recent data from a log file
 |Log tailing
 |Yes
 |Yes
 
-//NOT UPDATED
 3+| *Additional Anypoint Monitoring features*
 
-//NOT UPDATED
-|Anypoint Monitoring Archive API
+|xref:api-analytics-dashboard.adoc#anypoint-monitoring-archive-api[Anypoint Monitoring Archive API]
 |No
 |Yes
 
-//NOT UPDATED
-|xref:api-functional-monitoring[API Functional Monitoring] +
+|xref:api-functional-monitoring::index.adoc[API Functional Monitoring] +
 |Yes
 |Yes
 
-//NOT UPDATED
-|xref:reports.adoc[Reports]
+|xref:monitoring::reports.adoc[Reports]
 |No
 |Yes
 
-
-//TBD_TBD_TBD: entire category: what does "enhanced support" mean?
-3+| *Enhanced Support*
-
-//TBD_TBD_TBD: is support correct?
 |Enhanced Support
 |No
 |Yes
@@ -278,7 +292,7 @@ The following features are available for Anypoint Platform customers who have us
 |===
 
 [[visualizer-widget]]
-Anypoint Visualizer application network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
+NOTE: Anypoint Visualizer application network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
 
 // end::monitoringTable[]
 
