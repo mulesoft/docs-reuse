@@ -1,4 +1,4 @@
 //tag::java8-eoss[]
 [.notice-banner]
-Standard support for Java 8 and 11 ends in March 2025 for Mule 4.8 Edge and August 2025 for 4.6 LTS, so plan your upgrade path for apps that are running on Java 8 or 11 accordingly.
+Standard support for Java 8 and 11 ends in March 2025 for Mule 4.8 Edge and August 2025 for 4.6 LTS. Plan your upgrade path for apps that are running on Java 8 or 11 accordingly.
 //end::java8-eoss[]
