@@ -309,8 +309,8 @@ NOTE: Anypoint Visualizer application network integration refers to an Anypoint 
 
 // tag::dataRetentionMonitoring[]
 * For the Anypoint Integration Starter package or the Gold and Platinum subscriptions
-** Stores metric data in the same region as your control plane.
+** Stores metric data in the same region as your control plane
 * For the Anypoint Integration Advanced package or Titanium subscription
 ** Significantly increases the storage
-** Stores log and metric data in the same region as your control plane.
+** Stores log and metric data in the same region as your control plane
 // end::dataRetentionMonitoring[]
