@@ -2,6 +2,8 @@
 This feature is available only if your organization has the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. For more information, see the xref:general::pricing.adoc[Pricing and Packaging] documentation.
 // end::featureAdvReq[]
 
+
+////
 // tag::featureAdvReqMonitoring[]
 |===
 |*Feature available in xref:monitoring::index.adoc#billing[Advanced usage and Titanium subscription tiers]*
@@ -13,6 +15,7 @@ This feature is available only if your organization has the Anypoint Integration
 |*Feature available in xref:monitoring::index.adoc#billing[Advanced usage and Subscription-based tiers]*
 |===
 // end::featureAdvSubReqMonitoring[]
+////
 
 // tag::featureUsageTitReqMonitoring[]
 |===
