@@ -292,7 +292,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |===
 
 [[visualizer-widget]]
-NOTE: Anypoint Visualizer app network integration refers to an Anypoint Visualizer widget within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
+NOTE: Anypoint Visualizer app network integration refers to features in the *Application Network* tab within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
 
 // end::monitoringTable[]
 
