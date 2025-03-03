@@ -224,7 +224,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-|<<visualizer-widget, *Application Network* tab>> for Anypoint Visualizer app network integration 
+|<<visualizer-widget, *Application Network* tab>> for Anypoint Visualizer app network integration data in Anypoint Monitoring
 |No
 |Yes
 
