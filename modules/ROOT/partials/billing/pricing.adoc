@@ -224,7 +224,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-|<<visualizer-widget, Anypoint Visualizer>>: *Application Network* tab for the Anypoint Visualizer app network integration 
+|<<visualizer-widget, *Application Network* tab>> for Anypoint Visualizer app network integration 
 |No
 |Yes
 
@@ -292,7 +292,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |===
 
 [[visualizer-widget]]
-NOTE: Anypoint Visualizer app network integration refers to features in the *Application Network* tab within Anypoint Monitoring. Anypoint Visualizer as a product outside of Anypoint Monitoring is available to organizations regardless of pricing plan. 
+NOTE: Anypoint Visualizer app network integration refers to features in the *Application Network* tab within Anypoint Monitoring. Outside of Anypoint Monitoring, the product Anypoint Visualizer is available to organizations at all core-based subscription tiers (Gold, Platinum, Titanium). 
 
 // end::monitoringTable[]
 
