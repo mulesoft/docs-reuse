@@ -1,1 +1,3 @@
-. Select *Access Management* from the image:gear.svg["gear icon",20] menu.
+. Select *Access Management* from the gear menu:
++
+image::reuse::gear.png["gear icon",20]
