@@ -1,3 +1,1 @@
-. Select *Usage* from the gear menu:
-+
-image::reuse::gear.png["gear icon",20]
+. Select *Usage* from the image:reuse::gear.svg["gear icon",20] menu.
