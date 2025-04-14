@@ -255,7 +255,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-|xref:monitoring::log-search-query-syntax.adoc[Log Search]
+|Log search
 |Yes (single application only)
 |Yes (cross-application)
 
