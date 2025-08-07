@@ -162,7 +162,7 @@ If your organization uses the Anypoint Integration Starter package or Anypoint I
 
 Replica sizes with the suffix `.mem` are memory-intensive options with the same compute. 
 
-During the monthly patching cycle, your applications automatically migrate to an equivalent replica size. Application deployment through the Mule Maven Plugin is not yet supported. However, you can deploy using the Runtime Manager UI and the Application Manager Experience APIs by leveraging a new field under `target.deploymentSettings` called `instanceType`.
+During the monthly patching cycle, your applications automatically migrate to an equivalent replica size. You can deploy applications using the Runtime Manager UI or the Mule Maven Plugin. You can also use the Application Manager Experience APIs by leveraging a new field under `target.deploymentSettings` called `instanceType`. For more information, see xref:api-community-manager::index.adoc[].
 // end::vCoreSizeCH2[]
 
 // tag::apimLogging[]
