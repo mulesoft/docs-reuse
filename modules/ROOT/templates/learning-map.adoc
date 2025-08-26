@@ -1,0 +1,88 @@
+= Getting Started with <Suite/Product/Feature Name>
+:page-article-style: learning-map
+
+////
+How to use the learning map template:
+
+- Include the page-article-style attribute (immediately following the title) to use the learning map styles.
+- Use a learning map image with "start" in the filename to indicate the start of the map.
+- Check the learning map images in https://github.com/mulesoft/docs-site-ui/tree/main/src/img/learning-map for additional images to associate with the JTBD.
+- Use the "-" for bullet links in the table to automatically add the appropriate content type icon. If the URL starts with:
+  - https://www.youtube.com: video icon
+  - https://trailhead.salesforce.com: trailhead icon
+  - https://docs.mulesoft.com: help icon
+  - xref: help icon 
+  - https://www.mulesoft.com: marketing icon
+- Use a learning map image with "end" in the filename to indicate the end of the map.
+  
+////
+
+<Short Description>
+
+////
+Such as: 
+The end-to-end lifecycle journey for <xyz> consists of various tasks, each with links to relevant content to assist you in completing them.
+////
+
+
+// Row 1
+[.lm-table, cols="1a,1a,1a", grid="none"]
+|===
+| image::../_/img/learning-map/lm_start.png[]
+[.lm-bold]##<First Phase - Example: What is Xyz?>##
+
+<Description>
+
+- <links>
+
+
+| image::../_/img/learning-map/lm_explore_1.png[]
+[.lm-bold]##<Phase 2 - Example: Design and Build>##
+
+<Description>
+
+- <links>
+
+
+| image::../_/img/learning-map/lm_analyze_1.png[]
+[.lm-bold]##<Phase 3 - Example: Discover>##
+
+<Description>
+
+- <links>
+
+|===
+
+// Row 2
+
+[.lm-table, cols="1a,1a,1a", grid="none"]
+|===
+| image::../_/img/learning-map/lm_test_1.png[]
+[.lm-bold]##<Phase 4 - Example: Govern>##
+
+<Description>
+
+- <links>
+
+| image::../_/img/learning-map/lm_build_1.png[]
+[.lm-bold]##<Phase 5 - Example: Manage and Secure>##
+
+<Description>
+
+- <links>
+
+| image::../_/img/learning-map/lm_audience_end_1.png[]
+[.lm-bold]##<Last Phase - Example: Engage>##
+
+<Description>
+
+- <links>
+|===
+
+
+[discrete]
+== See Also
+
+// Use the * for bullet links in the See Also section to suppress the icon.
+* <links>
+
