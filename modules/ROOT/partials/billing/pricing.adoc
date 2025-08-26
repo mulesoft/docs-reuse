@@ -256,8 +256,8 @@ These features are available for Anypoint Platform customers who have usage-base
 |Yes
 
 |Log search
-|Yes (single application only)
-|Yes (cross-application)
+| Yes (<<single-app, single application only in Runtime Manager>>)
+| Yes (cross-application)
 
 |xref:monitoring::log-points.adoc[Log points]
 |No
