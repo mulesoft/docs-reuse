@@ -12,6 +12,8 @@ How to use the learning map template:
   - https://trailhead.salesforce.com: trailhead icon
   - https://docs.mulesoft.com: help icon
   - xref: help icon 
+  - https://developer.salesforce.com/docs: help icon
+  - https://help.salesforce.com/s/articleView: help icon
   - https://www.mulesoft.com: marketing icon
 - Use a learning map image with "end" in the filename to indicate the end of the map.
   
