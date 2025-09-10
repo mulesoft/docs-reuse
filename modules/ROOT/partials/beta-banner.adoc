@@ -21,3 +21,9 @@
 
 *Open Beta Release*: AsyncAPI implementation support in Anypoint Studio is in open beta. Any use of AsyncAPI with Studio in its beta state is subject to the applicable beta services terms and conditions. https://trailhead.salesforce.com/trailblazer-community/topics/mulesofteda?sort=LAST_MODIFIED_DATE_DESC[Provide feedback about the AsyncAPI feature].
 //end::studio-asyncapi[]
+
+//tag::monitoring-advanced[]
+[.notice-banner]
+
+*Open Beta Release*: In the Canada and Japan Clouds, Logs and Alerts features are in open beta. Any use of Anypoint Monitoring features in the beta state is subject to the applicable beta services terms and conditions. 
+//end::monitoring-advanced[]
