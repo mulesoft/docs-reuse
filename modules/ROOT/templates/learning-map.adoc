@@ -11,18 +11,18 @@ How to use the learning map template:
   - https://www.youtube.com: video icon
   - https://trailhead.salesforce.com: trailhead icon
   - https://docs.mulesoft.com: help icon
-  - xref: help icon 
+  - xref: help icon
   - https://developer.salesforce.com/docs: help icon
   - https://help.salesforce.com/s/articleView: help icon
   - https://www.mulesoft.com: marketing icon
 - Use a learning map image with "end" in the filename to indicate the end of the map.
-  
+
 ////
 
 <Short Description>
 
 ////
-Such as: 
+Such as:
 The end-to-end lifecycle journey for <xyz> consists of various tasks, each with links to relevant content to assist you in completing them.
 ////
 
@@ -30,7 +30,7 @@ The end-to-end lifecycle journey for <xyz> consists of various tasks, each with 
 // Row 1
 [.lm-table, cols="1a,1a,1a", grid="none"]
 |===
-| image::../_/img/learning-map/lm_start.png[]
+| image::reuse::lm_start.png[]
 [.lm-bold]##<First Phase - Example: What is Xyz?>##
 
 <Description>
@@ -38,7 +38,7 @@ The end-to-end lifecycle journey for <xyz> consists of various tasks, each with 
 - <links>
 
 
-| image::../_/img/learning-map/lm_explore_1.png[]
+| image::reuse::lm_explore_1.png[]
 [.lm-bold]##<Phase 2 - Example: Design and Build>##
 
 <Description>
@@ -46,7 +46,7 @@ The end-to-end lifecycle journey for <xyz> consists of various tasks, each with 
 - <links>
 
 
-| image::../_/img/learning-map/lm_analyze_1.png[]
+| image::reuse::lm_analyze_1.png[]
 [.lm-bold]##<Phase 3 - Example: Discover>##
 
 <Description>
@@ -59,21 +59,21 @@ The end-to-end lifecycle journey for <xyz> consists of various tasks, each with 
 
 [.lm-table, cols="1a,1a,1a", grid="none"]
 |===
-| image::../_/img/learning-map/lm_test_1.png[]
+| image::reuse::lm_test_1.png[]
 [.lm-bold]##<Phase 4 - Example: Govern>##
 
 <Description>
 
 - <links>
 
-| image::../_/img/learning-map/lm_build_1.png[]
+| image::reuse::lm_build_1.png[]
 [.lm-bold]##<Phase 5 - Example: Manage and Secure>##
 
 <Description>
 
 - <links>
 
-| image::../_/img/learning-map/lm_audience_end_1.png[]
+| image::reuse::lm_audience_end_1.png[]
 [.lm-bold]##<Last Phase - Example: Engage>##
 
 <Description>
@@ -87,4 +87,3 @@ The end-to-end lifecycle journey for <xyz> consists of various tasks, each with 
 
 // Use the * for bullet links in the See Also section to suppress the icon.
 * <links>
-
