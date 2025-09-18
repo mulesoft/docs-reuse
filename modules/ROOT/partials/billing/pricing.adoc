@@ -299,7 +299,7 @@ NOTE: Anypoint Visualizer app network integration refers to features in the *App
 // tag::monitoringAlerts[]
 [%header%autowidth.spread]
 |===
-|Pricing Package |Active Basic Alerts |Active Advanced Alerts
+|Pricing Package | Basic Alerts | Advanced Alerts
 | Anypoint Integration Advanced | 10 per app or API instance | 10 per app or API instance
 | Gold Subscription | 50 across the organization | None
 | Platinum Subscription | 50 across the organization | None
