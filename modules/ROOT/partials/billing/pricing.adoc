@@ -300,7 +300,7 @@ NOTE: Anypoint Visualizer app network integration refers to features in the *App
 [%header%autowidth.spread]
 |===
 |Pricing Package | Basic Alerts | Advanced Alerts
-| Anypoint Integration Advanced | 10 per app or API instance | 10 per app or API instance
+| Anypoint Integration Advanced | 10 per app or API instance | 20 across the organization
 | Gold Subscription | 50 across the organization | None
 | Platinum Subscription | 50 across the organization | None
 | Titanium Subscription | 50 times the number of vCores in your org, plus 100 | 20 across the organization
