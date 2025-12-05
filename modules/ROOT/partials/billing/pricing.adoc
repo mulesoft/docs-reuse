@@ -273,7 +273,7 @@ These features are available for Anypoint Platform customers who have usage-base
 
 3+| *Additional Anypoint Monitoring features*
 
-|xref:api-analytics-dashboard.adoc#anypoint-monitoring-archive-api[Anypoint Monitoring Archive API]
+|xref:monitoring::api-analytics-dashboard.adoc#anypoint-monitoring-archive-api[Anypoint Monitoring Archive API]
 |No
 |Yes
 
