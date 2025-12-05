@@ -202,7 +202,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |Yes
 
 [[built-in-app]]
-3+| xref:app-dashboards.adoc[*Built-in Application Dashboards*]
+3+| xref:monitoring::app-dashboards.adoc[*Built-in Application Dashboards*]
 |Out-of-the-box charts with metrics on individual Mule apps: 
 
 * Overview, Inbound, Outbound, Performance, Failures, JVM, and Infrastructure
@@ -212,15 +212,15 @@ These features are available for Anypoint Platform customers who have usage-base
 |Yes
 |Yes
 
-|Advanced metrics for xref:app-dashboards.adoc#built-in-charts-app[Inbound and Outbound charts]
+|Advanced metrics for xref:monitoring::app-dashboards.adoc#built-in-charts-app[Inbound and Outbound charts]
 |No
 |Yes
 
-|xref:app-dashboards.adoc#built-in-charts-app[Flow charts]
+|xref:monitoring::app-dashboards.adoc#built-in-charts-app[Flow charts]
 |No
 |Yes
 
-|xref:app-dashboards.adoc#built-in-charts-app[Connector charts]
+|xref:monitoring::app-dashboards.adoc#built-in-charts-app[Connector charts]
 |No
 |Yes
 
@@ -233,7 +233,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |Yes
 
 [[built-in-api]]
-3+| xref:api-analytics-dashboard.adoc[*Built-in API Dashboards*]
+3+| xref:monitoring::api-dashboard.adoc[*Built-in API Dashboards*]
 
 |Out-of-the-box charts with metrics on individual APIs: 
 
@@ -263,7 +263,7 @@ These features are available for Anypoint Platform customers who have usage-base
 |No
 |Yes
 
-|xref:raw-data.adoc[Raw log data downloads]
+|xref:monitoring::raw-data.adoc[Raw log data downloads]
 |No
 |Yes
 
@@ -273,7 +273,7 @@ These features are available for Anypoint Platform customers who have usage-base
 
 3+| *Additional Anypoint Monitoring features*
 
-|xref:api-analytics-dashboard.adoc#anypoint-monitoring-archive-api[Anypoint Monitoring Archive API]
+|xref:monitoring::api-analytics-dashboard.adoc#anypoint-monitoring-archive-api[Anypoint Monitoring Archive API]
 |No
 |Yes
 
