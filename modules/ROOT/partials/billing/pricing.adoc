@@ -166,7 +166,7 @@ During the monthly patching cycle, your applications automatically migrate to an
 // end::vCoreSizeCH2[]
 
 // tag::apimLogging[]
-API Manager stores up to 100 MB of logs per API instance for 30 days. Runtime Manager automatically purges logs that go beyond 100 MB per API instance. If you need more storage, you can either use a third-party service (configured through a policy) or sign up for the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. 
+API Manager stores up to 100 MB of logs per API instance for 30 days. Runtime Manager automatically purges logs that go beyond 100 MB per API instance. If you need more storage, sign up for the Anypoint Integration Advanced package or a Titanium subscription to Anypoint Platform. 
 // end::apimLogging[]
 
 // tag::apiAddAlerts[]
