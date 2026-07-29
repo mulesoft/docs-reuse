@@ -1,8 +1,7 @@
 //tag::anypoint-code-builder[]
 [.notice-banner]
 
-*Open Beta Release*: The *cloud IDE is in open beta*. Any use of Anypoint Code Builder in its beta state is subject to the applicable beta services terms and conditions, available from the IDE.
-//end::anypoint-code-builder[]
+Cloud IDE is scheduled for retirement on August 31, 2026. August 30, 2026 is the last day you can access Cloud IDE. Download your projects to work from Desktop IDE. Learn more in xref:anypoint-code-builder::int-import-mule-project.adoc#migrate-cloud-to-desktop[Migrate a Project from Cloud IDE to Desktop IDE].
 
 //tag::apikit[]
 [.notice-banner]
