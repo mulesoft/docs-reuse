@@ -1,4 +1,4 @@
 //tag::java8-eoss[]
 [.notice-banner]
-Standard support for Java 8 and 11 ends in August 2026 for 4.6 LTS. Plan your upgrade path for apps that are running on Java 8 or 11 accordingly.
+Extended support for Java 8 and 11 ends in February 2027 for 4.6 LTS. Upgrade your apps that run on Java 8 or 11.
 //end::java8-eoss[]
